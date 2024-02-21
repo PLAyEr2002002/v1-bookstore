@@ -26,18 +26,10 @@ footer {
 
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 60px;
-    }
-}
 
-h1{
-    font-size: 100px;
-}
 #darkswitchtext{
     color: black;
 }
