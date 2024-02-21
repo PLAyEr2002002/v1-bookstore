@@ -8,11 +8,14 @@ body.dark .navbar {
     color: #fff;
 }
 
-body.dark .navbar-brand,
+/* body.dark .navbar-brand,
 body.dark .nav-link {
     color: #fff;
-}
+} */
 
+#darkswitchtext{
+    color: black;
+}
 
 .dropdown {
     position: relative;
