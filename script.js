@@ -1,8 +1,17 @@
 // Sample data structure
 window.addEventListener('load', () => {
     const darkSwitch = document.getElementById('darkSwitch');
+    const sunIcon = document.querySelector('.fa-sun');
+    const moonIcon = document.querySelector('.fa-moon');
+
+    // Set initial state of the icons
+    sunIcon.style.display = darkSwitch.checked ? 'none' : 'inline';
+    moonIcon.style.display = darkSwitch.checked ? 'inline' : 'none';
+
     darkSwitch.addEventListener('change', () => {
         document.body.classList.toggle('dark');
+        sunIcon.style.display = darkSwitch.checked ? 'none' : 'inline';
+        moonIcon.style.display = darkSwitch.checked ? 'inline' : 'none';
     });
 });
 
