@@ -13,6 +13,19 @@ body.dark .nav-link {
     color: #fff;
 } */
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+h1{
+    font-size: 100px;
+}
 #darkswitchtext{
     color: black;
 }
@@ -40,5 +53,15 @@ body.dark .nav-link {
     display: block;
 }
 
+#columnImage {
+    max-width: 100%; /* This will make the image responsive on all devices */
+    height: auto; /* This will maintain the aspect ratio of the image */
+}
 
+/* On devices with a width of 768px or more, the image will be displayed at a maximum width of 600px */
+@media (min-width: 768px) {
+    #columnImage {
+        max-width: 800px;
+    }
+}
 
