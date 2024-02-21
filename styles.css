@@ -5,7 +5,14 @@ body.dark {
 
 body.dark .navbar {
     background-color: #333;
+    color: #fff;
 }
+
+body.dark .navbar-brand,
+body.dark .nav-link {
+    color: #fff;
+}
+
 
 .dropdown {
     position: relative;
@@ -30,8 +37,5 @@ body.dark .navbar {
     display: block;
 }
 
-#columnImage {
-    width: 300px;
-    height: 300px;
-}
+
 
