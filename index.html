@@ -23,20 +23,29 @@
     </nav>
     <!-- navbar end -->
 
+    <div class="container mt-5">
+        <h1 class="text-center">University Bookstore</h1>
+        <h3 class="text-center">Search for a book by course number</h3>
+        <h5 class="text-center">Check which courses have books available <a href="courses.html">here</a></h5>
+        <h4 class="text-center">Example : Ics 108</h4>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <input type="text" id="courseNumber" list="suggestionBox" placeholder="Enter course number" class="form-control">
+                <datalist id="suggestionBox"></datalist>
+                <button onclick="searchBook()" class="btn btn-primary mt-3">Search</button>
+            </div>
+        </div>
+        <div id="result" class="mt-5">
+            <p id="bookname"></p>
+            <p id="row"></p>
+            <p id="column"></p>
+            <p id="shelf"></p>
+        </div>
+        <div class="row justify-content-center">
+            <img style="height: 400px; width: auto; display: none;" id="columnImage" src="" alt="column image" class="mt-3">
+        </div>
+    </div>
 
-    <h1>University Bookstore</h1>
-    <h3>Search for a book by course number</h3>
-    <h5>Check which courses have books available <a href="courses.html">here</a></h5>
-    <h4>Example : Ics 108</h4>
-    <input type="text" id="courseNumber" list="suggestionBox" placeholder="Enter course number">
-    <datalist id="suggestionBox"></datalist>
-    <button onclick="searchBook()">Search</button>
-    <p id="bookname"></p>
-    <p id="row"></p>
-    <p id="column"></p>
-    <p id="shelf"></p>
-    
-    <img style="height: 400px; width: auto;" id="columnImage" src="" alt="column image">
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
