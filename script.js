@@ -59,7 +59,8 @@ function searchBook() {
         document.getElementById('bookname').innerText = `Book Name: ${result.name}`;
         document.getElementById('row').innerText = `Row: ${result.row}`;  
         document.getElementById('column').innerText = `Column: ${result.column}`;
-        document.getElementById('shelf').innerText = `Shelf: ${result.shelf}`;      
+        document.getElementById('shelf').innerText = `Shelf: ${result.shelf}`; 
+        document.getElementById('columnImage').src= `images/${result.column}.jpg`; 
     } else {
         document.getElementById('result').innerText = "Book not found.";
     }

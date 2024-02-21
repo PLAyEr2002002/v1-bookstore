@@ -20,3 +20,8 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#columnImage {
+    width: 300px;
+    height: 300px;
+}
