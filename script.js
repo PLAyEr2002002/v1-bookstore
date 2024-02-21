@@ -1,4 +1,12 @@
 // Sample data structure
+window.addEventListener('load', () => {
+    const darkSwitch = document.getElementById('darkSwitch');
+    darkSwitch.addEventListener('change', () => {
+        document.body.classList.toggle('dark');
+    });
+});
+
+
 let books = {
     // column 1
     "coe451": { name: "Information security : principles and practice / Mark Stamp. " , row: 1, column: 1 , shelf: 5},
@@ -122,3 +130,7 @@ function searchBook() {
         document.getElementById('result').innerText = "Book not found.";
     }
 }
+
+
+// styling and stuff
+// dark mode
