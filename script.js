@@ -4,10 +4,34 @@ let books = {
     "ics344": {row: 2, column: 3, shelf: 4},
     "ics343": {row: 3, column: 4, shelf: 5},
     "ics104": {row: 4, column: 5, shelf: 6},
-    "ics208": {row: 5, column: 6, shelf: 7}
+    "ics208": {row: 5, column: 6, shelf: 7},
+    "coe200": {row: 5, column: 6, shelf: 7},
 };
 
+// Autocomplete feature
+let input = document.getElementById('courseNumber');
+input.addEventListener('input', updateSuggestions);
 
+function updateSuggestions() {
+    let inputValue = input.value.toLowerCase().replace(/\s/g, '');
+    let suggestions = [];
+
+    if (inputValue !== '') {
+        suggestions = Object.keys(books).filter(book => book.startsWith(inputValue));
+    }
+
+    // Clear previous suggestions
+    let suggestionBox = document.getElementById('suggestionBox');
+    suggestionBox.innerHTML = '';
+
+    // Create new suggestions
+    suggestions.forEach(suggestion => {
+        let option = document.createElement('option');
+        option.value = suggestion;
+        suggestionBox.appendChild(option);
+    });
+}
+// Search function
 function searchBook() {
     let courseNumber = document.getElementById('courseNumber').value.toLowerCase().replace(/\s/g, '');
     let result = books[courseNumber];
