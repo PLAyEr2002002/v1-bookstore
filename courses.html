@@ -1,0 +1,80 @@
+<!-- https://bulletin.kfupm.edu.sa/courses/undergraduate-courses/ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>University Bookstore - Courses</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">University Bookstore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Departments and Books for courses offered</h1>
+    <div class="accordion" id="courseAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Computer Engineering
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#courseAccordion">
+                <div class="card-body">
+                    <ul>
+                        <li>COE 200 Fundamentals of Computer Engineering</li>
+                        <li>COE 202 Digital Logic Design</li>
+                        <li>COE 203 Digital Logic Laboratory</li>
+                        <li>COE 233 Digital Logic & Computer Organization</li>
+                        <li>COE 292 Introduction to Artificial Intelligence</li>
+                        <li>COE 301 Computer Organization</li>
+                        <!-- Add more courses as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Chemistry
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#courseAccordion">
+                <div class="card-body">
+                    <ul>
+                        <li>CHEM 101 Principles of Chemical Science I</li>
+                        <li>CHEM 102 Principles of Chemical Science II</li>
+                        <li>CHEM 105 General Chemistry for Engineers</li>
+                        <li>CHEM 111 Basics of Environmental Chemistry</li>
+                        <li>CHEM 201 Organic Chemistry I</li>
+                        <li>CHEM 202 Organic Chemistry Laboratory</li>
+                        <li>CHEM 204 Organic Chemistry II</li>
+                        <li>CHEM 212 Physical Chemistry I: Chemical Thermodynamics</li>
+                        <li>CHEM 213 Chemical Thermodynamics Lab</li>
+                        <!-- Add more courses as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Add more departments as needed -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
