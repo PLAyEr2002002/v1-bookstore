@@ -109,7 +109,7 @@ let books = {
     "ics201": { name: "Absolute Java / Walter Savitch.    " , row: 1, column: 12 , shelf: "1,2,3,4,5,6"},
     "ics102": { name: "Absolute Java / Walter Savitch.    " , row: 1, column: 12 , shelf: "1,2,3,4,5,6"},
 
-
+    // column 13
     "ise480": { name: "Reliability engineering and risk analysis : a practical guide / Mohammad Modarres, Mark P. Kaminskiy, Vasiliy Krivtsov.    " , row: 1, column: 13 , shelf: 6},
     "ise487": { name: "" , row: 1, column: 13 , shelf: 5},
     "ise470": { name: "Designing and managing the supply chain : concepts, strategies, and case studies / David Simchi-Levi; Philip Kaminsky; Edith Simchi-Levi.    " , row: 1, column: 13 , shelf: 4},
@@ -117,33 +117,37 @@ let books = {
     "ise465": { name: "Occupational safety and health for technologists, engineers, and managers / David L. Goetsch.    " , row: 1, column: 13 , shelf: 2},
     "ise448": { name: "Principles of sequencing and scheduling / Kenneth R. Baker, Dan Trietsch.    " , row: 1, column: 13 , shelf: 1},
 
+    // column 14
     "ise447": { name: "Making hard decisions with DecisionTools® / Robert T. Clemen, Terence Reilly ; with contributions by Samuel E. Bodily and Jeffrey Guyse ; and cases by Samuel E. Bodily [and others].    " , row: 1, column: 14 , shelf: 6},
     "ise429": { name: "Planning and control of maintenance systems : modelling and analysis / Salih O. Duffuaa, A. Raouf.    " , row: 1, column: 14 , shelf: 5},
     "ise443": { name: "Planning and control of maintenance systems : modelling and analysis / Salih O. Duffuaa, A. Raouf.    " , row: 1, column: 14 , shelf: 5},
     "ise405": { name: "Simulation with Arena W. David Kelton; Randall P. Sadowski; Nancy B. Zupick    " , row: 1, column: 14 , shelf: 4},
     "ise422": { name: "Facilities planning / James A. Tompkins ... [et al.].    " , row: 1, column: 14 , shelf: "2,3"},
     
-
+    // column 15
     "ise405": { name: "Discrete-event system simulation./ Banks, Carson II, Nelson, Nicol.    " , row: 1, column: 15 , shelf: "5,6"},
     "ise402": { name: "Production and operations analysis : strategy, quality, analytics, application / Steven Nahmias, Tava Lennon Olsen.    " , row: 1, column: 15 , shelf: "2,3,4"},
     "ise420": { name: "The certified six sigma green belt handbook Roderick A. Munro, Govindarajan Ramu, and Daniel J. Zrymiak    " , row: 1, column: "14,15" , shelf: 1},
 
+    // column 16
     "ise365": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 1, column: 16 , shelf: "1,2"},
     "ise361": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 1, column: 16 , shelf: "1,2"},
     "ise391": { name: "Product design and development / Karl T. Ulrich, University of Pennsylvania, Steven D. Eppinger, Massachusetts Institute of Technology.    " , row: 1, column: 16 , shelf: "3,4"},
     "ise324": { name: "Work systems and the methods, measurement, and management of work / Mikell P. Groover.    " , row: 1, column: 16 , shelf: "1,2,3"},
     "ise323": { name: "Work systems and the methods, measurement, and management of work / Mikell P. Groover.    " , row: 1, column: 16 , shelf: "1,2,3"},
 
+    // column 17
     "ise320": { name: "Statistical quality control : a modern introduction / Douglas C. Montgomery.    " , row: 1, column: 17 , shelf: "1,2"},
     "ise321": { name: "operation research    " , row: 1, column: 17 , shelf: 3},
     "ise307": { name: "Fundamentals of engineering economics / Chan S. Park, Pravin Kumar, Nand Kumar.    " , row: 1, column: "17,18" , shelf: "1,2,3"},
 
-    
+    // column 18
     "ise303": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 1, column: "19,20" , shelf: "1,2"},
 
-
+    // column 19
     "ise291": { name: "" , row: 1, column: 20 , shelf: 3},
     
+    // column 20
     "ise205": { name: "Applied statistics and probability for engineers / Douglas C. Montgomery (Arizona State University), George C. Runger (Arizona State University).    " , row: 1, column: 21 , shelf: "1,2,3"},
     "ise315": { name: "Applied statistics and probability for engineers / Douglas C. Montgomery (Arizona State University), George C. Runger (Arizona State University).    " , row: 1, column: 21 , shelf: "1,2,3"},
 
