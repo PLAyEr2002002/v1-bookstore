@@ -1,35 +1,4 @@
 // Sample data structure
-
-
-// styling properties
-window.addEventListener('load', () => {
-    const darkSwitch = document.getElementById('darkSwitch');
-    const sunIcon = document.querySelector('.fa-sun');
-    const moonIcon = document.querySelector('.fa-moon');
-
-    // Set initial state of the icons
-    sunIcon.style.display = darkSwitch.checked ? 'none' : 'inline';
-    moonIcon.style.display = darkSwitch.checked ? 'inline' : 'none';
-
-    darkSwitch.addEventListener('change', () => {
-        document.body.classList.toggle('dark');
-        sunIcon.style.display = darkSwitch.checked ? 'none' : 'inline';
-        moonIcon.style.display = darkSwitch.checked ? 'inline' : 'none';
-    });
-});
-
-// toast
-// var toastElList = [].slice.call(document.querySelectorAll('.toast'))
-// var toastList = toastElList.map(function (toastEl) {
-//   return new bootstrap.Toast(toastEl, {
-//     autohide: false
-//   })
-// })
-
-// document.getElementById('search-button').addEventListener('click', function () {
-//   toastList.forEach(toast => toast.show());
-// });
-
 let books = {
     // column 1
     "coe451": { name: "Information security : principles and practice / Mark Stamp. " , row: 1, column: 1 , shelf: 5},
@@ -310,6 +279,48 @@ let books = {
     
 };
 
+
+
+
+// Add any other necessary JavaScript initializations here
+
+
+// styling properties
+window.addEventListener('load', () => {
+    const darkSwitch = document.getElementById('darkSwitch');
+    const sunIcon = document.querySelector('.fa-sun');
+    const moonIcon = document.querySelector('.fa-moon');
+
+    // Set initial state of the icons
+    sunIcon.style.display = darkSwitch.checked ? 'none' : 'inline';
+    moonIcon.style.display = darkSwitch.checked ? 'inline' : 'none';
+
+    darkSwitch.addEventListener('change', () => {
+        document.body.classList.toggle('dark');
+        sunIcon.style.display = darkSwitch.checked ? 'none' : 'inline';
+        moonIcon.style.display = darkSwitch.checked ? 'inline' : 'none';
+    });
+});
+
+// toast
+// var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+// var toastList = toastElList.map(function (toastEl) {
+//   return new bootstrap.Toast(toastEl, {
+//     autohide: false
+//   })
+// })
+
+// document.getElementById('search-button').addEventListener('click', function () {
+//   toastList.forEach(toast => toast.show());
+// });
+
+// const myToast =new bootstrap.Toast('.toast');
+// setTimeout(() => myToast.show(), 3000);
+
+
+
+
+
 // ise303 ise307 ise420 
 // COLUMN 30 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
 // COLUMN 44 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
@@ -397,3 +408,4 @@ function searchBook() {
 
 // styling and stuff
 // dark mode
+
