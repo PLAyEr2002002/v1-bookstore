@@ -37,8 +37,14 @@ h1 {
 #darkswitchtext{
     color: black;
 }
-
-
+.card{
+    min-width: 200px;
+}
+#result{
+    display: flex;
+    
+    
+}
 
 #columnImage {
     max-width: 100%; /* This will make the image responsive on all devices */
