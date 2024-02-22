@@ -280,7 +280,15 @@ let books = {
 };
 
 
+window.onload = function() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block'; // Show the popup
 
+    // Hide the popup after 5 seconds
+    setTimeout(function() {
+        popup.style.display = 'none';
+    }, 10000);
+}
 
 // Add any other necessary JavaScript initializations here
 
