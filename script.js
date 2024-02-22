@@ -1,4 +1,7 @@
 // Sample data structure
+
+
+// styling properties
 window.addEventListener('load', () => {
     const darkSwitch = document.getElementById('darkSwitch');
     const sunIcon = document.querySelector('.fa-sun');
@@ -14,6 +17,16 @@ window.addEventListener('load', () => {
         moonIcon.style.display = darkSwitch.checked ? 'inline' : 'none';
     });
 });
+
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}
 
 
 let books = {
@@ -79,11 +92,11 @@ let books = {
     "ics309": { name: "Ethics in information technology / George W. Reynolds.    " , row: 1, column: 8 , shelf: 1},
 
     // column 9
-    "ics253": { name: "" , row: 1, column: 9 , shelf: "5,6"},
-    "ics254": { name: "" , row: 1, column: 9 , shelf: "5,6"},
-    "ics233": { name: "" , row: 1, column: 9 , shelf: 4},
-    "ics202": { name: "" , row: 1, column: 9 , shelf: "1,3"},
-    "ics324": { name: "" , row: 1, column: 9 , shelf: 2},
+    "ics253": { name: "Discrete mathematics and its applications / Kenneth H. Rosen adapted by Kamala Krithivasan.    " , row: 1, column: 9 , shelf: "5,6"},
+    "ics254": { name: "Discrete mathematics and its applications / Kenneth H. Rosen adapted by Kamala Krithivasan.    " , row: 1, column: 9 , shelf: "5,6"},
+    "ics233": { name: "Computer organization and design. Patterson, John L. Hennessy : the hardware/software interface / David A. Patterson, John L. Hennessy.    " , row: 1, column: 9 , shelf: 4},
+    "ics202": { name: "Data structures and algorithms in Java / Adam Drozdek.    " , row: 1, column: 9 , shelf: "1,3"},
+    "ics324": { name: "Fundamentals of database systems Ramez Elmasri, Shamkant B. Navathe    " , row: 1, column: 9 , shelf: 2},
     
     // column 10
     "ics104": { name: "" , row: 1, column: 10 , shelf: "1,2,3,4,5,6"},

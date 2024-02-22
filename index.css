@@ -48,13 +48,14 @@ h1 {
 }
 
 .card{
-    flex: 1 0 auto;
+    border-radius: 15px 50px;
 }
 
 
 #columnImage {
     max-width: 100%; /* This will make the image responsive on all devices */
     height: auto; /* This will maintain the aspect ratio of the image */
+    border-radius: 15px 50px;
 }
 
 /* On devices with a width of 768px or more, the image will be displayed at a maximum width of 600px */
@@ -74,7 +75,5 @@ h1 {
         justify-content: center;
         align-items: center;
     }
-    .card{
-        margin-left: 4rem;
-    }
+
 }
