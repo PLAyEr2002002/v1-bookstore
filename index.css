@@ -37,14 +37,20 @@ h1 {
 #darkswitchtext{
     color: black;
 }
-.card{
-    min-width: 200px;
-}
+
+
+
 #result{
     display: flex;
-    
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
+
+.card{
+    flex: 1 0 auto;
+}
+
 
 #columnImage {
     max-width: 100%; /* This will make the image responsive on all devices */
@@ -59,5 +65,16 @@ h1 {
     h1 {
         font-size: 40px;
     }
+    
 }
 
+@media (max-width: 768px) { /* Adjust this value as needed */
+    #result {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-left: 4rem;
+    }
+}
