@@ -314,6 +314,8 @@ let books = {
 // COLUMN 30 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
 // COLUMN 44 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
 // checking duplicates
+
+
 function findDuplicateFields(books) {
     const fields = {}; // Object to store encountered fields
     const duplicates = {}; // Object to store duplicate fields
@@ -374,15 +376,21 @@ function searchBook() {
         document.getElementById('shelf').innerText = `Shelf: ${result.shelf}`; 
         document.getElementById('columnImage').src= `images/${result.column}.jpg`; 
     } else {
-        
+        document.getElementById('coursenotfounddiv').style.display = 'block';
         document.getElementById('coursenotfound').innerText = "Course Not Found. Try Another Course Number.";
         document.getElementById('columnImage').src = 'images/KFUPM.png';
         document.getElementById('courseNumber').value = ''; // Clear the input field
 
+        document.getElementById('bookname').innerText = '';
+        document.getElementById('row').innerText = '';  
+        document.getElementById('column').innerText = '';
+        document.getElementById('shelf').innerText = ''; 
+
           // Make the text disappear after 5 seconds (5000 milliseconds)
           setTimeout(function() {
             document.getElementById('coursenotfound').innerText = "";
-        }, 3000);
+            document.getElementById('coursenotfounddiv').style.display = 'none';
+        }, 5000);
     }
 }
 
