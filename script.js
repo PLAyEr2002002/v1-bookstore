@@ -218,7 +218,14 @@ function searchBook() {
         document.getElementById('shelf').innerText = `Shelf: ${result.shelf}`; 
         document.getElementById('columnImage').src= `images/${result.column}.jpg`; 
     } else {
-        document.getElementById('result').innerText = "Book not found.";
+        document.getElementById('coursenotfound').innerText = "Course Not Found. Try Another Course Number.";
+        document.getElementById('columnImage').src = 'images/KFUPM.png';
+        document.getElementById('courseNumber').value = ''; // Clear the input field
+
+          // Make the text disappear after 5 seconds (5000 milliseconds)
+          setTimeout(function() {
+            document.getElementById('coursenotfound').innerText = "";
+        }, 3000);
     }
 }
 
