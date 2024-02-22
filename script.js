@@ -130,33 +130,189 @@ let books = {
     "ise420": { name: "The certified six sigma green belt handbook Roderick A. Munro, Govindarajan Ramu, and Daniel J. Zrymiak    " , row: 1, column: "14,15" , shelf: 1},
 
     // column 16
-    "ise365": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 1, column: 16 , shelf: "1,2"},
-    "ise361": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 1, column: 16 , shelf: "1,2"},
-    "ise391": { name: "Product design and development / Karl T. Ulrich, University of Pennsylvania, Steven D. Eppinger, Massachusetts Institute of Technology.    " , row: 1, column: 16 , shelf: "3,4"},
-    "ise324": { name: "Work systems and the methods, measurement, and management of work / Mikell P. Groover.    " , row: 1, column: 16 , shelf: "1,2,3"},
-    "ise323": { name: "Work systems and the methods, measurement, and management of work / Mikell P. Groover.    " , row: 1, column: 16 , shelf: "1,2,3"},
+    "ise365": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 11, column: 16 , shelf: "1,2"},
+    "ise361": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 11, column: 16 , shelf: "1,2"},
+    "ise391": { name: "Product design and development / Karl T. Ulrich, University of Pennsylvania, Steven D. Eppinger, Massachusetts Institute of Technology.    " , row: 11, column: 16 , shelf: "3,4"},
+    "ise324": { name: "Work systems and the methods, measurement, and management of work / Mikell P. Groover.    " , row: 11, column: 16 , shelf: "1,2,3"},
+    "ise323": { name: "Work systems and the methods, measurement, and management of work / Mikell P. Groover.    " , row: 11, column: 16 , shelf: "1,2,3"},
 
     // column 17
-    "ise320": { name: "Statistical quality control : a modern introduction / Douglas C. Montgomery.    " , row: 1, column: 17 , shelf: "1,2"},
-    "ise321": { name: "operation research    " , row: 1, column: 17 , shelf: 3},
-    "ise307": { name: "Fundamentals of engineering economics / Chan S. Park, Pravin Kumar, Nand Kumar.    " , row: 1, column: "17,18" , shelf: "1,2,3"},
+    "ise320": { name: "Statistical quality control : a modern introduction / Douglas C. Montgomery.    " , row: 11, column: 17 , shelf: "1,2"},
+    "ise321": { name: "operation research    " , row: 11, column: 17 , shelf: 3},
 
     // column 18
-    "ise303": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 1, column: "19,20" , shelf: "1,2"},
+    "ise307": { name: "Fundamentals of engineering economics / Chan S. Park, Pravin Kumar, Nand Kumar.    " , row: 11, column: 18 , shelf: "1,2,3"},
 
     // column 19
-    "ise291": { name: "" , row: 1, column: 20 , shelf: 3},
-    
+    "ise303": { name: "Operations research : an introduction / Hamdy A. Taha.    " , row: 11, column: "19,20" , shelf: "1,2"},
+
     // column 20
-    "ise205": { name: "Applied statistics and probability for engineers / Douglas C. Montgomery (Arizona State University), George C. Runger (Arizona State University).    " , row: 1, column: 21 , shelf: "1,2,3"},
-    "ise315": { name: "Applied statistics and probability for engineers / Douglas C. Montgomery (Arizona State University), George C. Runger (Arizona State University).    " , row: 1, column: 21 , shelf: "1,2,3"},
+    "ise291": { name: "" , row: 11, column: 20 , shelf: 3},
+    
+    // column 21
+    "ise205": { name: "Applied statistics and probability for engineers / Douglas C. Montgomery (Arizona State University), George C. Runger (Arizona State University).    " , row: 11, column: 21 , shelf: "1,2,3"},
+    "ise315": { name: "Applied statistics and probability for engineers / Douglas C. Montgomery (Arizona State University), George C. Runger (Arizona State University).    " , row: 11, column: 21 , shelf: "1,2,3"},
 
-    "ise": { name: "" , row: 1, column: 21 , shelf: 1},
+    // column 22
+    "cise483": { name: "" , row: 11, column: 22 , shelf: 6},
+    "cise438": { name: "" , row: 11, column: 22 , shelf: 5},
+    "cise432": { name: "" , row: 11, column: 22 , shelf: 5},
+    "cise418": { name: "" , row: 11, column: 22 , shelf: 4},
+    "cise414": { name: "" , row: 11, column: 22 , shelf: 3},
+    "cise412": { name: "" , row: 11, column: 22 , shelf: 2},
+    "cise312": { name: "" , row: 11, column: 22 , shelf: 1},
+    
+    // column 23
+    "cise316": { name: "" , row: 11, column: 23 , shelf: 6},
+    "cise315": { name: "" , row: 11, column: 23 , shelf: "4,5"},
+    "cise313": { name: "" , row: 11, column: 23 , shelf: 3},
+    "cise312": { name: "" , row: 11, column: 23 , shelf: "1,2"},
 
+    // column 24
+    "cise": { name: "" , row: 11, column: 24 , shelf: 1},
+    "cise": { name: "" , row: 11, column: 24 , shelf: 1},
+    // column 25
+    "cise": { name: "" , row: 11, column: 25 , shelf: 1},
+    "cise": { name: "" , row: 11, column: 25 , shelf: 1},
+    "cise": { name: "" , row: 11, column: 25 , shelf: 1},
+    "cise": { name: "" , row: 11, column: 25 , shelf: 1},
+
+    // column 26
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 26 , shelf: 1},
+
+    // column 27
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    "arc": { name: "" , row: 11, column: 27 , shelf: 1},
+    
+    // column 28
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+    "cp": { name: "" , row: 11, column: 28 , shelf: 1},
+
+    // column 29
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+    "are": { name: "" , row: 11, column: 29 , shelf: 1},
+
+    // column 30
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+    "are": { name: "" , row: 11, column: 30 , shelf: 1},
+
+    // column 34
+    "engl214": { name: "" , row: 6, column: 34 , shelf: "1,2,3"},
+
+    // column 35
+    "biol233": { name: "" , row: 6, column: 35 , shelf: "1,2"},
+
+    // column 36
+    "math001": { name: "" , row: 6, column: 36 , shelf: "1,2,3,4"},
+    "math002": { name: "" , row: 6, column: 36 , shelf: "1,2,3,4"},
+
+    // column 37
+    "ae": { name: "" , row: 6, column: 37 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 37 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 37 , shelf: 1},
+
+    // column 38
+    "ae": { name: "" , row: 6, column: 38 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 38 , shelf: 1},
+
+    // column 39
+    "ae": { name: "" , row: 6, column: 39 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 39 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 39 , shelf: 1},
+
+    // column 40
+    "ae": { name: "" , row: 6, column: 40 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 40 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 40 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 40 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 40 , shelf: 1},
+
+    // column 41
+    "ae": { name: "" , row: 6, column: 41 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 41 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 41 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 41 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 41 , shelf: 1},
+    "ae": { name: "" , row: 6, column: 41 , shelf: 1},
+
+    // column 43
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+    "as": { name: "" , row: 6, column: 43 , shelf: 1},
+
+    // column 44
+    "as": { name: "" , row: 6, column: 44 , shelf: 1},
+    "as": { name: "" , row: 6, column: 44 , shelf: 1},
+    "as": { name: "" , row: 6, column: 44 , shelf: 1},
+    "as": { name: "" , row: 6, column: 44 , shelf: 1},
+    "as": { name: "" , row: 6, column: 44 , shelf: 1},
+    "as": { name: "" , row: 6, column: 44 , shelf: 1},
+    "as": { name: "" , row: 6, column: 44 , shelf: 1},
 
     
 };
 
+// ise303 ise307 ise420 
+// COLUMN 30 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
+// COLUMN 44 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
 // checking duplicates
 function findDuplicateFields(books) {
     const fields = {}; // Object to store encountered fields
@@ -218,6 +374,7 @@ function searchBook() {
         document.getElementById('shelf').innerText = `Shelf: ${result.shelf}`; 
         document.getElementById('columnImage').src= `images/${result.column}.jpg`; 
     } else {
+        
         document.getElementById('coursenotfound').innerText = "Course Not Found. Try Another Course Number.";
         document.getElementById('columnImage').src = 'images/KFUPM.png';
         document.getElementById('courseNumber').value = ''; // Clear the input field
