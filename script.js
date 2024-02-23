@@ -1122,6 +1122,16 @@ window.onload = function() {
     }, 10000);
 }
 
+function imagenote() {
+    var popupp = document.getElementById('imageloadwarning');
+    popupp.style.display = 'block'; // Show the popup
+
+    // Hide the popup after 5 seconds
+    setTimeout(function() {
+        popupp.style.display = 'none';
+    }, 10000);
+}
+
 // Add any other necessary JavaScript initializations here
 
 

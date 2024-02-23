@@ -103,6 +103,23 @@ h1 {
     display: none; /* Hidden by default */
     z-index: 1000; /* Ensure it sits on top of the page */
 }
+
+.popupp {
+    position: fixed;
+    /* bottom: 0;
+    left: 0; */
+    top: 30px;
+    right: 20px;
+    width: 20%;
+    background-color: #e70909;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px 20px;
+    opacity: 0.9;
+    display: none; /* Hidden by default */
+    z-index: 1000; /* Ensure it sits on top of the page */
+}
 /* .popup p{
 margin: auto;
 } */
@@ -130,6 +147,9 @@ margin: auto;
         align-items: center;
     }
     .popup{
+        width: 90%;
+    }
+    .popupp{
         width: 90%;
     }
 }
