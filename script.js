@@ -1144,35 +1144,6 @@ window.addEventListener('load', () => {
 });
 
 
-
-
-
-
-function findDuplicateFields(courses) {
-    const fields = {}; // Object to store encountered fields
-    const duplicates = {}; // Object to store duplicate fields
-
-    // Iterate over each book entry
-    for (const code in courses) {
-        const field = JSON.stringify(courses[code]); // Convert the field object to a string for comparison
-        if (fields[field]) {
-            // If the field is already encountered, mark it as a duplicate
-            duplicates[code] = true;
-        } else {
-            // Otherwise, add it to the encountered fields object
-            fields[field] = true;
-        }
-    }
-
-    // Return an array of duplicate course codes
-    return Object.keys(duplicates);
-}
-
-const duplicateFields = findDuplicateFields(courses);
-console.log("Duplicate fields:", duplicateFields);
-
-// 
-
 // Autocomplete feature
 let input = document.getElementById('courseNumber');
 input.addEventListener('input', updateSuggestions);
