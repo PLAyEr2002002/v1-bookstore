@@ -46,6 +46,12 @@ h1 {
     flex-wrap: wrap;
     
 }
+#resultt{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
 
 .card{
     border-radius: 15px 50px;
@@ -92,6 +98,11 @@ margin: auto;
 
 @media (max-width: 768px) { /* Adjust this value as needed */
     #result {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #resultt{
         flex-direction: column;
         justify-content: center;
         align-items: center;

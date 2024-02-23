@@ -166,34 +166,94 @@
 <br>
 
 <!-- book search -->
-<h3 class="text-center">Search for a <em>BOOK</em> and get the course number</h3>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <input
-          type="text"
-          id="bookName"
-          list="BooksuggestionBox"
-          placeholder="Enter Book Name, Example : Problem Solving"
-          class="form-control"
-        />
-        <datalist id="BooksuggestionBox"></datalist>
-        <div class="search-container">
-          <button onclick="searchBook()" id="search-button-book" class="btn btn-primary mt-3">
-            Search
-          </button>
-        </div>
+
+<div class="container mt-5">
+  <h3 class="text-center">Search for a <em>BOOK</em> and get the course number</h3>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <input
+        type="text"
+        id="bookName"
+        list="BooksuggestionBox"
+        placeholder="Enter Book Name, Example : Problem Solving"
+        class="form-control"
+      />
+      <datalist id="BooksuggestionBox"></datalist>
+      <div class="search-container">
+        <button onclick="searchBook()" id="search-button-book" class="btn btn-primary mt-3">
+          Search
+        </button>
       </div>
-
-      <div>
-           <p id="booktitle"></p>
-        <p id="coursenumber"></p>
-            <p id="isbn"></p>
-            <p id="stocknumber"></p>
-      </div>
-
-      
-
     </div>
+<!-- 
+    <div>
+         <p id="booktitle"></p>
+      <p id="coursenumber"></p>
+          <p id="isbn"></p>
+          <p id="stocknumber"></p>
+    </div> -->
+
+          <!-- book not found -->
+          <div class="col-lg-12 col-md-6 mb-4">
+            <div id="booknotfounddiv" style="display: none; margin-top: 15px; background-color: #f81d0d;" class="alert alert-danger" role="alert">
+              <h3 style="text-align: center; font-weight: bold;" id="booknotfound" ></h3>
+            </div>
+            
+          </div>
+
+
+         <!-- result cards -->
+      <!-- name of book -->
+      <div id="resultt" class="mt-5">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-primary mb-3" style="max-width: 18rem">
+            <div class="card-header">
+              <h4 class="card-title">Book Name</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text" id="booktitle"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- row of book -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-success mb-3" style="max-width: 18rem">
+            <div class="card-header"><h4 class="card-title">Course Number</h4></div>
+            <div class="card-body">
+              <p class="card-text" id="coursenumber"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- column of book -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-info mb-3" style="max-width: 18rem">
+            <div class="card-header"><h4 class="card-title">ISBN Number</h4></div>
+            <div class="card-body">
+              <p class="card-text" id="isbn"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- shelf of book -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-info mb-3" style="max-width: 18rem">
+            <div class="card-header">
+              <h4 class="card-title">Stock Number</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text" id="stocknumber"></p>
+            </div>
+          </div>
+        </div>
+    
+
+    
+
+  </div>
+</div>
+
   
     <!-- footer -->
 

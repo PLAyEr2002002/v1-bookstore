@@ -386,6 +386,7 @@ function searchCourse() {
     } else {
         document.getElementById('coursenotfounddiv').style.display = 'block';
         document.getElementById('coursenotfound').innerText = "Course Not Found. Try Another Course Number.";
+
         document.getElementById('columnImage').src = 'images/KFUPM.png';
         document.getElementById('courseNumber').value = ''; // Clear the input field
 
@@ -427,10 +428,18 @@ function searchBook() {
         document.getElementById('isbn').innerText = `ISBN: ${courseresult.FirstOfISBN}`;
         document.getElementById('stocknumber').innerText = `Stock Number: ${courseresult.stockno}`;
     } else {
-        document.getElementById('booktitle').innerText = "Book not found. Try another book name.";
+        document.getElementById('booknotfounddiv').style.display = 'block';
+        document.getElementById('booknotfound').innerText = "Book Not Found. Try Another BOOK NAME.";
+
+        document.getElementById('booktitle').innerText = '';
         document.getElementById('coursenumber').innerText = '';
         document.getElementById('isbn').innerText = '';
         document.getElementById('stocknumber').innerText = '';
+
+        setTimeout(function() {
+            document.getElementById('booknotfound').innerText = "";
+            document.getElementById('booknotfounddiv').style.display = 'none';
+        }, 5000);
     }
 }
 
