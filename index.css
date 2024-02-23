@@ -64,6 +64,26 @@ h1 {
     border-radius: 15px 50px;
 }
 
+
+/*  */
+#BooksuggestionBox {
+    position: relat;
+    z-index: 1;
+    background-color: rgb(179, 24, 24);
+    border: 1px solid #ccc;
+}
+
+#BooksuggestionBox div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#BooksuggestionBox div:hover {
+    background-color: #ccc;
+}
+/*  */
+
+
 /* ////////////////////// */ 
 .popup {
     position: fixed;

@@ -279,7 +279,831 @@ let courses = {
     
 };
 let books={
+
+    // ics start
     "Data mining : concepts and techniques / Jiawei Han, Micheline Kamber, Jian Pei." : {courseno: "ICS 426", FirstOfISBN : 9780123814791, stockno: 2621200037},
+    "Discrete mathematics and its applications / Kenneth H. Rosen adapted by Kamala Krithivasan." : {
+        courseno: "ICS 253, ICS 254",
+        FirstOfISBN: 9789814670135,
+        stockno: 2621200038
+    },
+    "Data communications and networking / Behrouz A. Forouzan." : {
+        courseno: "ICS 343",
+        FirstOfISBN: 9789814577519,
+        stockno: 2621200043
+    },
+    "Operating system concepts essentials / Abraham Silberschatz, Peter Baer Galvin, Greg Gagne." : {
+        courseno: "ICS 431",
+        FirstOfISBN: 9781118093757,
+        stockno: 2621300049
+    },
+    "Data structures and algorithms in Java / Adam Drozdek." : {
+        courseno: "ICS 202",
+        FirstOfISBN: 9789814392785,
+        stockno: 2621300050
+    },
+    "Ethics in information technology / George W. Reynolds." : {
+        courseno: "ICS 309",
+        FirstOfISBN: 9781285197159,
+        stockno: 2621400059
+    },
+    "Computer graphics with Open GL / Hearn, Baker, Carithers." : {
+        courseno: "ICS 415, ICS 435, ICS 543",
+        FirstOfISBN: 9781292024257,
+        stockno: 2621400060
+    },
+    "Concepts of programming languages / Robert W. Sebesta; global edition contributions by Soumen Mukherjee, Arup Kumar Bhattacharjee" : {
+        courseno: "ICS 410",
+        FirstOfISBN: 9781292100555,
+        stockno: 2621500066
+    },
+    "Fundamentals of database systems / Ramez Elmasri, Shamkant B. Navathe" : {
+        courseno: "ICS 324, ICS 334, ICS 424, ICS 541",
+        FirstOfISBN: 9781292097619,
+        stockno: 2621500067
+    },
+    "Problem solving and program design in C / Jeri R Hanly, Elliot B Koffman." : {
+        courseno: "ICS 103",
+        FirstOfISBN: 9781292098814,
+        stockno: 2621500069
+    },
+    "Algorithms : design techniques and analysis / M.H. Alsuwaiyel." : {
+        courseno: "ICS 353, ICS 553",
+        FirstOfISBN: 9789814723640,
+        stockno: 2621600071
+    },
+    "Artificial intelligence : a modern approach / Stuart J. Russell and Peter Norvig." : {
+        courseno: "ICS 381",
+        FirstOfISBN: 9781292153964,
+        stockno: 2621600072
+    },
+    "Absolute Java / Walter Savitch." : {
+        courseno: "ICS 102, ICS 201",
+        FirstOfISBN: 9781292109220,
+        stockno: 2621600075
+    },
+    "Algorithms : design techniques and analysis / M. H. AlSuwaiyel" : {
+        courseno: "ICS 353, ICS 553",
+        FirstOfISBN: 9789810237400,
+        stockno: 2620037
+    },
+    "Introduction to cryptography and network security / Behrouz A. Forouzan." : {
+        courseno: "ICS 454, ICS 555",
+        FirstOfISBN: 9780071263610,
+        stockno: 2620900020
+    },
+    "Speech and language processing : an introduction to natural language processing, computational linguistics, and speech recognition / Daniel Jurafsky, James H. Martin." : {
+        courseno: "ICS 482, ICS 582",
+        FirstOfISBN: 9780135041963,
+        stockno: 2620800012
+    },
+    // ics end
+    // coe start
+    "Linear System Theory and Design : International third edition / Chi-Tsong Chen." : {
+        courseno: "COE 507",
+        FirstOfISBN: 9780195392074,
+        stockno: 2614507
+    },
+    "VHDL : modular design and synthesis of cores and systems / Zainalabedin Navabi." : {
+        courseno: "COE 561",
+        FirstOfISBN: 9780071475457,
+        stockno: 2630800001
+    },
+    "Computer security : principles and practice / William Stallings, Lawrie Brown." : {
+        courseno: "COE 449",
+        FirstOfISBN: 9780135137116,
+        stockno: 2631000008
+    },
+    "Information security : principles and practice / Mark Stamp." : {
+        courseno: "COE 451",
+        FirstOfISBN: 9780470626399,
+        stockno: 2631200012
+    },
+    "Design for electrical and computer engineers : theory, concepts, and practice / Ralph M. Ford, Chris S. Coulston." : {
+        courseno: "COE 300",
+        FirstOfISBN: 9780071263474,
+        stockno: 2631200014
+    },
+    "Advanced digital design with the Verilog HDL / Michael D. Ciletti." : {
+        courseno: "COE 405",
+        FirstOfISBN: 9780136019282,
+        stockno: 2631200015
+    },
+    "Introduction to logic design / Alan B, Marcovitz." : {
+        courseno: "COE 202",
+        FirstOfISBN: 9780070164901,
+        stockno: 2631200017
+    },
+    "Computer architecture : a quantitative approach / John L. Hennessy, David A. Patterson." : {
+        courseno: "COE 501",
+        FirstOfISBN: 9780123838728,
+        stockno: 2631300018
+    },
+    "Top-down network design / Priscilla Oppenheimer." : {
+        courseno: "COE 444, CSE 436",
+        FirstOfISBN: 9781587202834,
+        stockno: 2631300019
+    },
+    "Data and computer communications / William Stallings." : {
+        courseno: "COE 241, COE 341",
+        FirstOfISBN: 9781292014388,
+        stockno: 2631400022
+    },
+    "Computer organization and design / David A. Patterson, John L. Hennessy." : {
+        courseno: "COE 301, ICS 233",
+        FirstOfISBN: 9780124077263,
+        stockno: ["2631400023", "2621300053"]
+    },
+    "Computer networks / Andrew S. Tanenbaum, David J. Wetherall." : {
+        courseno: "COE 540, ICS 570",
+        FirstOfISBN: 9781292024226,
+        stockno: ["2631500024", "2621400056"]
+    },
+    "Business data communications and networking / Jerry FitzGerald, Alan Dennis, Alexandra Durcikova." : {
+        courseno: "COE 353",
+        FirstOfISBN: 9781118891681,
+        stockno: 2631600026
+    },
+    "Computer networking : a top-down approach / James F. Kurose, Keith W. Ross." : {
+        courseno: "COE 344, ICS 570",
+        FirstOfISBN: 9781292153599,
+        stockno: 2631800001
+    },
+    "Computers as components : principles of embedded computing system design / Marilyn Wolf." : {
+        courseno: "COE 306",
+        FirstOfISBN: 9780128053874,
+        stockno: 2631800002
+    },
+    "VLSI physical design automation : theory and practice / Sadiq M. Sait, Habib Youssef." : {
+        courseno: "COE 572",
+        FirstOfISBN: 9789810238834,
+        stockno: 2638503
+    },
+    "Computer architecture : a quantitative approach / John L. Hennessy, David A. Patterson." : {
+        courseno: "COE 501",
+        FirstOfISBN: 9780128119051,
+        stockno: 2631900003
+    },
+    
+    // coe finish
+    // swe start
+    "Software architecture : foundations, theory, and practice / Richard N. Taylor, Nenad Medvidoviقc, Eric M. Dashofy." : {
+        courseno: "SWE 416, SWE 536",
+        FirstOfISBN: 9780470167748,
+        stockno: 2620900019
+    },
+    "Internet & World Wide Web : how to program / P.J. Deitel, H.M. Deitel." : {
+        courseno: "SWE 363",
+        FirstOfISBN: 9780273764021,
+        stockno: 2621100032
+    },
+    "Software metrics : a rigorous and practical approach / Norman Fenton, James Bieman." : {
+        courseno: "SWE 469, SWE 539",
+        FirstOfISBN: 9781439838228,
+        stockno: 2621400058
+    },
+    "Software engineering / Ian Sommerville." : {
+        courseno: "SWE 205, SWE 311, ICS 413, ICS 511",
+        FirstOfISBN: 9781292096131,
+        stockno: 2621500064
+    },
+    "Introduction to software testing / Paul Ammann, Jeff Offutt." : {
+        courseno: "SWE 326",
+        FirstOfISBN: 9781107172012,
+        stockno: 2621600074
+    },
+    "Designing the user interface : strategies for effective human-computer interaction / Ben Shneiderman...e[et al]." : {
+        courseno: "SWE 312",
+        FirstOfISBN: 9781292153919,
+        stockno: 2621800001
+    },
+    "Information technology project management / Kathy Schwalbe." : {
+        courseno: "SWE 387, SWE 587",
+        FirstOfISBN: 9781337101356,
+        stockno: 2621900003
+    },
+    "Software design : from programming to architecture / Eric J. Braude" : {
+        courseno: "SWE 316, SWE 516, ICS 516",
+        FirstOfISBN: 9780471204596,
+        stockno: 2627529
+    },
+    
+    // swe finish
+    // ise start
+    "Analysis and control of production systems / Elsayed A. Elsayed, Thomas O. Boucher" : {
+        courseno: "ISE 508",
+        FirstOfISBN: 9780130787590,
+        stockno: 2610032
+    },
+    "Instrumentation and control systems / W. Bolton" : {
+        courseno: "CISE201",
+        FirstOfISBN: 9780750664325,
+        stockno: 2610800001
+    },
+    "Introduction to control system technology / Robert N. Bateson" : {
+        courseno: "CISE438",
+        FirstOfISBN: 9780130306883,
+        stockno: 2610800013
+    },
+    "Work systems and the methods, measurement, and management of work / Mikell P. Groover" : {
+        courseno: "ISE 323",
+        FirstOfISBN: 9781292027050,
+        stockno: 2610800016
+    },
+    "Discrete-event system simulation / Banks, Carson II, Nelson, Nicol" : {
+        courseno: "ISE 405",
+        FirstOfISBN: 9781292024370,
+        stockno: 2610900024
+    },
+    "Linear programming and network flows / Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali" : {
+        courseno: "ISE 503, ISE 501",
+        FirstOfISBN: 9780470462720,
+        stockno: 2611000027
+    },
+    "Facilities planning / James A. Tompkins ... [et al.]" : {
+        courseno: "ISE 422",
+        FirstOfISBN: 9780470444047,
+        stockno: 2611000028
+    },
+    "Principles of sequencing and scheduling / Kenneth R. Baker, Dan Trietsch" : {
+        courseno: "ISE 448, ISE 548",
+        FirstOfISBN: 9780470391655,
+        stockno: 2611000032
+    },
+    "Operations research : an introduction / Hamdy A. Taha" : {
+        courseno: "ISE 303, STAT361, ISE 361",
+        FirstOfISBN: 9780131391994,
+        stockno: ["2611100040", "2131400105"]
+    },
+    "Occupational safety and health for technologists, engineers, and managers / David L. Goetsch" : {
+        courseno: "ISE 465",
+        FirstOfISBN: 9781292061993,
+        stockno: 2611100043
+    },
+    "Modern control engineering / Katsuhiko Ogata" : {
+        courseno: "CISE316, ME  488",
+        FirstOfISBN: 9780137133376,
+        stockno: 2611100044
+    },
+    "Process control instrumentation technology / Curtis D. Johnson" : {
+        courseno: "CISE313",
+        FirstOfISBN: 9781292026015,
+        stockno: 2611300048
+    },
+    "Cost accounting principles / Cecily A. Raiborn, Michael R. Kinney" : {
+        courseno: "ISE 304",
+        FirstOfISBN: 9781111972103,
+        stockno: ["2611300049", "2611700090"]
+    },
+    "Statistical quality control : a modern introduction / Douglas C. Montgomery" : {
+        courseno: "ISE 320",
+        FirstOfISBN: 9781118322574,
+        stockno: 2611300051
+    },
+    "Interfacing PIC microcontrollers : embedded design by interactive simulation / Martin Bates" : {
+        courseno: "CISE414",
+        FirstOfISBN: 9780080993638,
+        stockno: 2611400063
+    },
+    "Making hard decisions with DecisionTools / Robert T. Clemen, Terence Reilly" : {
+        courseno: "ISE 447, EM  530",
+        FirstOfISBN: 9780538797573,
+        stockno: ["2611400064", "2531300016"]
+    },
+    "Signals and systems / Alan V. Oppenheim, Alan S. Willsky, with S. Hamid Nawab" : {
+        courseno: "CISE315",
+        FirstOfISBN: 9781292025902,
+        stockno: 2611400065
+    },
+    "Simulation with Arena / W. David Kelton; Randall P. Sadowski; Nancy B. Zupick" : {
+        courseno: "ISE 405",
+        FirstOfISBN: 9781259254369,
+        stockno: 2611400069
+    },
+    "Digital control system analysis & design / Charles L. Phillips, H. Troy Nagle, Aranya Chakrabortty." : {
+        courseno: "CISE318, EE 432, EE 200",
+        FirstOfISBN: 9781292061221,
+        stockno: 2611500074
+    },
+    "Planning and control of maintenance systems : modelling and analysis / Salih O. Duffuaa, A. Raouf." : {
+        courseno: "ISE 429",
+        FirstOfISBN: 9783319198026,
+        stockno: 2611500077
+    },
+    "Digital design / M. Morris Mano, Michael D. Ciletti." : {
+        courseno: "CISE204, EE 200",
+        FirstOfISBN: 9780132340434,
+        stockno: 2611522
+    },
+    "Introduction to information systems : supporting and transforming business / R. Kelly Rainer Jr., Brad Prince, Casey Cegielski." : {
+        courseno: "CISE209",
+        FirstOfISBN: 9781118808559,
+        stockno: 2611600078
+    },
+    "Database processing : fundamentals, design, and implementation / David M. Kroenke, David Auer." : {
+        courseno: "ISE 361",
+        FirstOfISBN: 9781292107639,
+        stockno: 2611600080
+    },
+    "The certified six sigma green belt handbook / Roderick A. Munro, Govindarajan Ramu, and Daniel J. Zrymiak" : {
+        courseno: "ISE 420",
+        FirstOfISBN: 9780873898911,
+        stockno: 2611600081
+    },
+    "Numerical methods for engineers / Steven C. Chapra, Raymond P. Canale." : {
+        courseno: "CISE301, CE 318",
+        FirstOfISBN: 9789814670876,
+        stockno: ["2611600083", "2331600075"]
+    },
+    "Production and operations analysis : strategy, quality, analytics, application / Steven Nahmias, Tava Lennon Olsen." : {
+        courseno: "ISE 402",
+        FirstOfISBN: 9781478623069,
+        stockno: 2611700085
+    },
+    "Instrumentation and control systems / W. Bolton." : {
+        courseno: "CISE201",
+        FirstOfISBN: 9780081006139,
+        stockno: 2611700086
+    },
+    "Introduction to probability models / Sheldon M Ross." : {
+        courseno: "ISE 502, ISE 543, STAT416",
+        FirstOfISBN: 9780124079489,
+        stockno: ["2611700087", "2131500113"]
+    },
+    "Modern control systems / Richard C. Dorf, Robert H. Bishop." : {
+        courseno: "CISE302, EE 380, AE 313, CISE305",
+        FirstOfISBN: 9781292152974,
+        stockno: ["2611700088", "2341700047", "2381600023"]
+    },
+    "Operations research : an introduction / Hamdy A. Taha." : {
+        courseno: "ISE 303, STAT361",
+        FirstOfISBN: 9781292165547,
+        stockno: 2611700089
+    },
+    "Cost accounting : foundations and evolutions / Michael R. Kinney, Cecily A. Raiborn." : {
+        courseno: "ISE 304",
+        FirstOfISBN: 9781111971724,
+        stockno: 2611700090
+    },
+    "Reliability engineering and risk analysis : a practical guide / Mohammad Modarres, Mark P. Kaminskiy, Vasiliy Krivtsov." : {
+        courseno: "ISE 480",
+        FirstOfISBN: 9781498745871,
+        stockno: 2611800092
+    },
+    "Product design and development / Karl T. Ulrich, Steven D. Eppinger." : {
+        courseno: "ISE 391",
+        FirstOfISBN: 9780078029066,
+        stockno: 2611800093
+    },
+    "Fundamentals of engineering economics / Chan S. Park, Pravin Kumar, Nand Kumar." : {
+        courseno: "ISE 307",
+        FirstOfISBN: 9780273772910,
+        stockno: 2612514
+    },
+    "Digital control system analysis and design / Charles L. Phillips, H. Troy Nagle." : {
+        courseno: "CISE318, EE 432",
+        FirstOfISBN: 9780133177299,
+        stockno: ["2611517", "2341532"]
+    },
+    "Digital design : with an introduction to the verilog HDL, VHDL, and system Verilog / M. Morris Mano, Michael D. Ciletti." : {
+        courseno: "CISE204",
+        FirstOfISBN: 9781292231167,
+        stockno: 2611900095
+    },
+    "Facilities planning and design / Alberto Garcia-Diaz." : {
+        courseno: "ISE 422",
+        FirstOfISBN: 9781292042893,
+        stockno: 2611500076
+    },
+    "Introduction to maintenance engineering : modelling, optimization and management / Mohammed Ben-Daya, Uday Kumar, D.N. Prabhakar Murthy." : {
+        courseno: "ISE 529",
+        FirstOfISBN: 9781118487198,
+        stockno: 2611600082
+    },
+    "Mechatronics : principles and applications / Godfrey C. Onwubolu." : {
+        courseno: "CISE412",
+        FirstOfISBN: 9780750663793,
+        stockno: 2610900017
+    },
+    "Nonlinear programming / Dimitri P. Bertsekas." : {
+        courseno: "ISE 521",
+        FirstOfISBN: 9781886529007,
+        stockno: 2610800012
+    },
+    "Process dynamics and control / Dale E. Seborg, et al." : {
+        courseno: "CISE418, EE 433, CHE 401",
+        FirstOfISBN: 9780470128671,
+        stockno: ["2611100042", "2321800044", "2346527"]
+    },
+    "Scheduling : theory, algorithms, and systems / Michael L. Pinedo." : {
+        courseno: "ISE 548",
+        FirstOfISBN: 9783319265780,
+        stockno: 2611700084
+    },
+    "Operations research." : {
+        courseno: "ISE 321",
+        FirstOfISBN: 9781292165547
+    },
+    "Supply Chain Management Strategy, Planning, and Operation / Sunil Chopra." : {
+        courseno: "ISE 470, OM 530",
+        FirstOfISBN: 9781292257891
+    },
+        
+    
+    // ise finish
+    // cise start with ise ^^^^^^^
+    // cise finish
+
+    // arc start
+    "A history of architecture : settings and rituals / Spiro Kostof." : {
+        courseno: "ARC 122, ARC 121, ARC 313, ARC 112",
+        FirstOfISBN: 9780195399837,
+        stockno: 2540049
+    },
+    "Architectural drawing : a visual compendium of types and methods / Rendow Yee." : {
+        courseno: "ARC 100, ARC 113",
+        FirstOfISBN: 9781118012871,
+        stockno: 2540800005
+    },
+    "Emerging concepts in urban space design / Geoffrey Broadbent." : {
+        courseno: "ARC 453, ARC 251, ARC 454",
+        FirstOfISBN: 9780419161509,
+        stockno: 2541000010
+    },
+    "Realistic architectural visualization with 3ds max and mental ray / Roger Cusson, Jamie Cardoso." : {
+        courseno: "ARC 213, ARC 124",
+        FirstOfISBN: 9780240812298,
+        stockno: 2541100014
+    },
+    "The professional practice of architectural working drawings / Osamu A. Wakita, Nagy R. Bakhoum, Richard M. Linde." : {
+        courseno: "ARC 407",
+        FirstOfISBN: 9780470618158,
+        stockno: 2541200017
+    },
+    "Structural analysis / SI conversion by Tan Kiang Hwee." : {
+        courseno: "ARC 232, ARC 222, CE 305",
+        FirstOfISBN: 9789810687137,
+        stockno: 2541200018
+    },
+    "Islamic architecture : form, function, and meaning / Robert Hillenbrand." : {
+        courseno: "ARC 210, ARC 416, ARC 122",
+        FirstOfISBN: 9780231101332,
+        stockno: 2541300021
+    },
+    "Architecture : form, space and order / Francis D. K. Ching." : {
+        courseno: "ARC 101, ARC 102, ARC 103",
+        FirstOfISBN: 9781118745083,
+        stockno: 2541500025
+    },
+    "Simplified engineering for architects and builders / James E. Ambrose, Patrick Tripeny." : {
+        courseno: "ARC 323",
+        FirstOfISBN: 9781118975046,
+        stockno: 2541600026
+    },
+    "The architect's studio companion : rules of thumb for preliminary design / Edward Allen and Joseph Iano." : {
+        courseno: "ARC 305",
+        FirstOfISBN: 9781119092414,
+        stockno: 2541700030
+    },
+    "The architecture student's handbook of professional practice / the American Institute of Architects." : {
+        courseno: "ARC 426",
+        FirstOfISBN: 9781118738979,
+        stockno: 2541700031
+    },
+    "Elementary structures for architects and builders / Ronald E. Shaeffer." : {
+        courseno: "ARC 231, ARC 221",
+        FirstOfISBN: 9780131186552,
+        stockno: 2542004
+    },
+    "Modern architecture since 1900 / William J. R. Curtis." : {
+        courseno: "ARC 226, ARC 227, ARC 314, ARC 313",
+        FirstOfISBN: 9780714833569,
+        stockno: 2545005
+    },
+    "Programming for design : from theory to practice / Edith Cherry." : {
+        courseno: "ARC 400",
+        FirstOfISBN: 9780471196457,
+        stockno: 2546504
+    },
+    "Time-saver standards for building types / edited by Joseph De Chiara, John Hancock Callender." : {
+        courseno: "ARC 304",
+        FirstOfISBN: 9780071202411,
+        stockno: 2548016
+    },
+    "Architectural conservation : principles and practice / Aylin Orbasli." : {
+        courseno: "ARC 440, ARC 483",
+        FirstOfISBN: 9780632040254,
+        stockno: 2541000011
+    },
+    "The non-designer's design book : design and typographic principles for the visual novice / Robin Williams." : {
+        courseno: "ARC 342",
+        FirstOfISBN: 9780133966152,
+        stockno: 2541300022
+    },
+    "The professional practice of architectural working drawings / Osamu A. Wakita, Nagy R. Bakhoum, Richard M. Linde." : {
+        courseno: "ARC 407",
+        FirstOfISBN: 9781118880524,
+        stockno: 2541800032
+    },
+    
+    // arc finish
+    // cp start
+    "Community planning : an introduction to the comprehensive plan / Eric Damian Kelly." : {
+        courseno: "CP 310",
+        FirstOfISBN: 9781597265539,
+        stockno: 2521000007
+    },
+    "Urban Planning Today : a Harvard Design Magazine Reader." : {
+        courseno: "CP 315",
+        FirstOfISBN: 9780816647576,
+        stockno: 2521000008
+    },
+    "Technical drawing with engineering graphics / Frederick E. Giesecke, et al." : {
+        courseno: "CP 203",
+        FirstOfISBN: 9780134306414,
+        stockno: 2521000009
+    },
+    "Integrated environmental planning / James K. Lein." : {
+        courseno: "CP 302",
+        FirstOfISBN: 9780632043460,
+        stockno: 2521100011
+    },
+    "Principles of map design / Judith A. Tyner." : {
+        courseno: "CP 303",
+        FirstOfISBN: 9781462517121,
+        stockno: 2521100012
+    },
+    "Introduction to remote sensing / James B. Campbell, Randolph H. Wynne." : {
+        courseno: "CP 303",
+        FirstOfISBN: 9781609181765,
+        stockno: 2521100013
+    },
+    "Introduction to geographic information systems / Kang-tsung Chang." : {
+        courseno: "CP 206",
+        FirstOfISBN: 9780071086165,
+        stockno: 2521200018
+    },
+    "Essentials of marketing research / William G. Zikmund, Barry J. Babin." : {
+        courseno: "CP 301",
+        FirstOfISBN: 9781133273431,
+        stockno: 2521300022
+    },
+    "Geographic information science and systems / Paul A. Longley, et al." : {
+        courseno: "CP 308, CRP 514",
+        FirstOfISBN: 9781118676950,
+        stockno: 2521500001
+    },
+    "Quantitative methods for business decisions / Jon Curwin and Roger Slater." : {
+        courseno: "CP 307",
+        FirstOfISBN: 9781408060193,
+        stockno: 2521800002
+    },
+    "Urban land use planning / Philip R. Berke, et al." : {
+        courseno: "CP 204, CRP 503",
+        FirstOfISBN: 9780252030796,
+        stockno: 2528513
+    },
+    "Spatial databases : a tour / Shashi Shekhar, Sanjay Chawla." : {
+        courseno: "CP 203",
+        FirstOfISBN: 9780130174802,
+        stockno: 2521000009 // This stock number is duplicated from another entry, please check for accuracy.
+    },
+    
+    // cp finish
+    // are start
+    "Lee's building maintenance management / Paul Wordsworth." : {
+        courseno: "ARE 524",
+        FirstOfISBN: 9780632053629,
+        stockno: 2510512
+    },
+    "Construction specifications writing : principles and procedures / Mark Kalin, et al." : {
+        courseno: "ARE 459, ARC 407",
+        FirstOfISBN: 9780470380369,
+        stockno: ["2511200001", "2541100016"]
+    },
+    "Construction management / Daniel W. Halpin, Bolivar A. Senior." : {
+        courseno: "ARE 413",
+        FirstOfISBN: 9780470505939,
+        stockno: 2511300003
+    },
+    "Estimating in building construction / Steven J. Peterson, Frank R. Dagostino." : {
+        courseno: "ARE 431",
+        FirstOfISBN: 9780133431100,
+        stockno: 2511400004
+    },
+    "Fundamentals of building construction : materials and methods / Edward Allen, Joseph Iano." : {
+        courseno: "ARE 211, ARE 500",
+        FirstOfISBN: 9781118138915,
+        stockno: 2511400005
+    },
+    "Building construction illustrated / Francis D.K. Ching." : {
+        courseno: "ARE 212",
+        FirstOfISBN: 9781118458341,
+        stockno: 2511400007
+    },
+    "Architects' data / Ernst and Peter Neufert, et al." : {
+        courseno: "ARE 202, ARC 202, ARC 204",
+        FirstOfISBN: 9781405192538,
+        stockno: ["2511400008", "2540045"]
+    },
+    "Mechanical and electrical equipment for buildings / Walter T. Grondzik, Alison G. Kwok." : {
+        courseno: "ARE 320, ARE 322, ARE 325, ARE 328",
+        FirstOfISBN: 9781118615904,
+        stockno: 2511500009
+    },
+    "Computing essentials / Timothy J. O'Leary, Linda I. O'Leary." : {
+        courseno: "ARE 222, ARE 510",
+        FirstOfISBN: 9780077167790,
+        stockno: 2511500013
+    },
+    "Architectural graphics / Francis D.K. Ching." : {
+        courseno: "ARE 101, ARE 201",
+        FirstOfISBN: 9781119035664,
+        stockno: 2511600014
+    },
+    "Principles of solar engineering / D. Yogi Goswami." : {
+        courseno: "ARE 440",
+        FirstOfISBN: 9781466563780,
+        stockno: 2511600015
+    },
+    "Architectural graphic standards / authored by the American Institute of Architects, Dennis J. Hall, et al." : {
+        courseno: "ARE 303, ARC 203",
+        FirstOfISBN: 9781118909508,
+        stockno: ["2511600016", "2541700027"]
+    },
+    "Graphic thinking for architects and designers / Paul Laseau." : {
+        courseno: "ARE 301",
+        FirstOfISBN: 9780471352921,
+        stockno: 2513005
+    },
+    "Solar engineering of thermal processes / John A. Duffie, William A. Beckman." : {
+        courseno: "ARE 532, ME 439",
+        FirstOfISBN: 9780470873663,
+        stockno: ["2517524", "2361300038"]
+    },
+    "Workplace strategies and facilities management / Rick Best, Craig Lanston, Gerard de Valence." : {
+        courseno: "ARE 520",
+        FirstOfISBN: 9780750651509,
+        stockno: 2519000
+    },
+    "Principles of heating ventilating and air conditioning / Ronald H. Howell." : {
+        courseno: "ARE 345, ARE 342",
+        FirstOfISBN: 9781939200730,
+        stockno: 2511800001
+    },
+    "Structures / Daniel L. Schodek, Martin Bechthold." : {
+        courseno: "ARE 446",
+        FirstOfISBN: 9781292040820,
+        stockno: 2511500011
+    },
+    
+    // are finish
+    // ae start
+    "Gas dynamics / James E. A. John." : {
+        courseno: "AE 325",
+        FirstOfISBN: 9780131206687,
+        stockno: 2381100003
+    },
+    "Aircraft performance and design / John D. Anderson, Jr." : {
+        courseno: "AE 240",
+        FirstOfISBN: 9780070019713,
+        stockno: 2381100006
+    },
+    "Viscous fluid flow / Frank M. White." : {
+        courseno: "AE 524, ME 532, ME 539",
+        FirstOfISBN: 9780071244930,
+        stockno: ["2381100010", "2368500"]
+    },
+    "Aircraft design : a conceptual approach / Daniel P. Raymer." : {
+        courseno: "AE 427",
+        FirstOfISBN: 9781600869112,
+        stockno: 2381200016
+    },
+    "Introduction to flight / John D. Anderson, Jr." : {
+        courseno: "AE 220",
+        FirstOfISBN: 9789814636186,
+        stockno: 2381500020
+    },
+    "Aircraft structures for engineering students / T.H.G. Megson." : {
+        courseno: "AE 328",
+        FirstOfISBN: 9780081009147,
+        stockno: 2381700024
+    },
+    "Introduction to aircraft flight mechanics / Thomas R. Yechout, et al." : {
+        courseno: "AE 426",
+        FirstOfISBN: 9781624102547,
+        stockno: 2381700025
+    },
+    "Elements of propulsion : gas turbines and rockets / Jack D. Mattingly, Keith M. Boyer." : {
+        courseno: "AE 422",
+        FirstOfISBN: 9781624103711,
+        stockno: 2381700026
+    },
+    "Fundamentals of aerodynamics / John D. Anderson, Jr." : {
+        courseno: "AE 333",
+        FirstOfISBN: 9781259251344,
+        stockno: 2381700027
+    },
+    "Aircraft systems : mechanical, electrical, and avionics subsystems integration / Ian Moir, Allan Seabridge." : {
+        courseno: "AE 401",
+        FirstOfISBN: 9780470059968,
+        stockno: 2381800028
+    },
+    "Applied numerical methods with MATLAB for engineers and scientists / Steven C. Chapra." : {
+        courseno: "AE 355, MATH513",
+        FirstOfISBN: 9781260083255,
+        stockno: 2381900029
+    },
+    "Principles of helicopter aerodynamics / J. Gordon Leishman." : {
+        courseno: "AE 448",
+        FirstOfISBN: 9781107013353,
+        stockno: 2381900030
+    },
+    "Flight stability and automatic control / Robert C. Nelson." : {
+        courseno: "AE 446, AE 540, AE 426",
+        FirstOfISBN: 9780071158381,
+        stockno: 2382500
+    },
+    "Mechanics and thermodynamics of propulsion / Philip G. Hill, Carl R. Peterson." : {
+        courseno: "AE 422, ME 422",
+        FirstOfISBN: 9780201146592,
+        stockno: ["2384500", "2365051"]
+    },
+    "Modern compressible flow : with historical perspective / John D. Anderson, Jr." : {
+        courseno: "AE 520",
+        FirstOfISBN: 9780072424430,
+        stockno: 2385000
+    },
+    "Mechanics of materials." : {
+        courseno: "AE 228",
+        FirstOfISBN: 9781119676294
+    },
+    
+    // ae finish
+    // as start
+    "Mathematics of investment and credit / Samuel A. Broverman." : {
+        courseno: "AS 201",
+        FirstOfISBN: 9781566987677,
+        stockno: 2131100067
+    },
+    "Actuarial mathematics / Newton L. Bowers, et al." : {
+        courseno: "AS 381",
+        FirstOfISBN: 9780938959465,
+        stockno: 2131200077
+    },
+    "SOA exam FM/2 / Gail Hall, Richard London." : {
+        courseno: "AS 288",
+        FirstOfISBN: 9781625420077,
+        stockno: 2131200078
+    },
+    "ACTEX SOA exam FM study manual / Matthew J. Hassett, et al." : {
+        courseno: "AS 288",
+        FirstOfISBN: 9781625423849,
+        stockno: 2131200079
+    },
+    "Loss models: from data to decisions / Stuart A. Klugman, et al." : {
+        courseno: "AS 483",
+        FirstOfISBN: 9781118315323,
+        stockno: 2131300099
+    },
+    "Survival analysis: a self-learning text / David G. Kleinbaum, Mitchel Klein." : {
+        courseno: "AS 475",
+        FirstOfISBN: 9781441966452,
+        stockno: 2131400106
+    },
+    "ACTEX FM/2 study manual / Matthew J. Hassett, et al." : {
+        courseno: "AS 288",
+        FirstOfISBN: 9781566989633,
+        stockno: 2131400107
+    },
+    "ACTEX FM study manual / Matthew J. Hassett, et al." : {
+        courseno: "AS 288",
+        FirstOfISBN: 9781625422095,
+        stockno: 2131400108
+    },
+    "Derivatives markets / Robert L. McDonald." : {
+        courseno: "AS 498",
+        FirstOfISBN: 9781292021256,
+        stockno: 2131500111
+    },
+    "Models for quantifying risk / Stephen J. Camilli, et al." : {
+        courseno: "AS 482",
+        FirstOfISBN: 9781625423474,
+        stockno: 2131700128
+    },
+    "ACTEX SOA exam P study manual / Samuel A. Broverman." : {
+        courseno: "AS 388",
+        FirstOfISBN: 9781635881851,
+        stockno: 2131800135
+    },
+    "Mathematics of investment and credit / Samuel A. Broverman." : {
+        courseno: "AS 201",
+        FirstOfISBN: 9781635882216,
+        stockno: 2131800136
+    },
+    
+    // as finish
+
 
 }
 // ise303 ise307 ise420 
@@ -404,25 +1228,11 @@ function searchCourse() {
 }
 
 
-// function searchBook() {
-//     let bookName = document.getElementById('bookName').value.toLowerCase(); //.replace(/\s/g, '');
-//     let courseresult = books[bookName];
-//     console.log(courseresult);
-//     if(courseresult){
-//         const bookName = Object.keys(books)[0];
-//         document.getElementById('booktitle').innerText = `Book Name: ${bookName}`;
-//         //document.getElementById('booktitle').innerText = `Book Name: ${courseresult.name}`;
-//         document.getElementById('coursenumber').innerText = `Course Number: ${courseresult.courseno}`;
-//         document.getElementById('isbn').innerText = `ISBN: ${courseresult.FirstOfISBN}`;
-//         document.getElementById('stocknumber').innerText = `Stock Number: ${courseresult.stockno}`;
-//     }
-// }
-
 function searchBook() {
     let bookName = document.getElementById('bookName').value;
     let courseresult = books[bookName];
     if(courseresult){
-        const bookName = Object.keys(books)[0];
+        // const bookName = Object.keys(books)[0];
         document.getElementById('booktitle').innerText = `Book Name: ${bookName}`;
         document.getElementById('coursenumber').innerText = `Course Number: ${courseresult.courseno}`;
         document.getElementById('isbn').innerText = `ISBN: ${courseresult.FirstOfISBN}`;
@@ -461,9 +1271,13 @@ function updateBookSuggestions() {
 
     // Create new suggestions
     suggestions.forEach(suggestion => {
-        let option = document.createElement('option');
-        option.value = suggestion;
-        suggestionBox.appendChild(option);
+        let div = document.createElement('div');
+        div.textContent = suggestion;
+        div.addEventListener('click', function() {
+            bookInput.value = this.textContent;
+            suggestionBox.innerHTML = '';
+        });
+        suggestionBox.appendChild(div);
     });
 }
 
