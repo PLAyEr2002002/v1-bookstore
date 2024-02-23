@@ -170,7 +170,7 @@
 <div class="container mt-5">
   <h3 class="text-center">Search for a <em>BOOK</em> and get the course number</h3>
   <div class="row justify-content-center">
-    <div class="col-md-6">
+    <!-- <div class="col-md-6">
       <input
         type="text"
         id="bookName"
@@ -184,7 +184,24 @@
           Search
         </button>
       </div>
-    </div>
+    </div> -->
+
+    <div class="col-md-6">
+      <input
+          type="text"
+          id="bookName"
+          placeholder="Enter Book Name, Example : Problem Solving"
+          class="form-control"
+          oninput="updateBookSuggestions()"
+      />
+      <div id="BooksuggestionBox" class="suggestion-box"></div>
+      <div class="search-container">
+          <button onclick="searchBook()" id="search-button-book" class="btn btn-primary mt-3">
+              Search
+          </button>
+      </div>
+  </div>
+  
 <!-- 
     <div>
          <p id="booktitle"></p>

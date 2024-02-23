@@ -66,19 +66,20 @@ h1 {
 
 
 /*  */
-#BooksuggestionBox {
-    position: relat;
+.suggestion-box {
+    position: absolute;
     z-index: 1;
-    background-color: rgb(179, 24, 24);
+    background-color: white;
     border: 1px solid #ccc;
+    width: 100%;
 }
 
-#BooksuggestionBox div {
+.suggestion-box div {
     padding: 10px;
     cursor: pointer;
 }
 
-#BooksuggestionBox div:hover {
+.suggestion-box div:hover {
     background-color: #ccc;
 }
 /*  */
