@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />  -->
     <title>University Bookstore</title>
     <link
       rel="stylesheet"
@@ -73,7 +74,7 @@
 
 
       <h1 class="text-center">KFUPM Bookstore</h1>
-      <h3 class="text-center">Search for a book by course number</h3>
+      <h5 class="text-center">Search for a book by course number</h>
       <h5 class="text-center">
         Check which courses have books available <a href="courses.html">here</a>
       </h5>
@@ -197,14 +198,16 @@
     </div> -->
 
     <div class="col-md-6">
-      <input
-          type="text"
-          id="bookName"
-          placeholder="Enter Book Name, Example : Problem Solving"
-          class="form-control"
-          oninput="updateBookSuggestions()"
-      />
-      <div id="BooksuggestionBox" class="suggestion-box"></div>
+      <div class="autocomplete-container">
+          <input
+              type="text"
+              id="bookName"
+              placeholder="Enter Book Name, Example : Problem Solving"
+              class="form-control"
+              oninput="updateBookSuggestions()"
+          />
+          <div id="BooksuggestionBox" class="suggestion-box"></div>
+      </div>
       <div class="search-container">
           <button onclick="searchBook()" id="search-button-book" class="btn btn-primary mt-3">
               Search

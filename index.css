@@ -66,6 +66,10 @@ h1 {
 
 
 /*  */
+.autocomplete-container {
+    position: relative;
+}
+
 .suggestion-box {
     position: absolute;
     z-index: 1;
@@ -73,10 +77,12 @@ h1 {
     color: rgb(194, 44, 44);
     border: 1px solid #ccc;
     width: 100%;
+    box-sizing: border-box; /* This ensures that the border is included in the element's total width and height */
+    /* color: black; Default text color for light mode */
 }
 
 .suggestion-box div {
-    padding: 10px;
+    /* padding: 1px; */
     cursor: pointer;
 }
 
@@ -127,7 +133,8 @@ margin: auto;
 /* On devices with a width of 768px or more, the image will be displayed at a maximum width of 600px */
 @media (min-width: 768px) {
     #columnImage {
-        max-width: 800px;
+        max-width: 100%; /*  changed it to a percent from 800px*/
+
     }
     
     
