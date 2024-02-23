@@ -88,13 +88,15 @@
           />
           <datalist id="suggestionBox"></datalist>
           <div class="search-container">
-            <button onclick="searchBook()" id="search-button" class="btn btn-primary mt-3">
+            <button onclick="searchCourse()" id="search-button-course" class="btn btn-primary mt-3">
               Search
             </button>
           </div>
         </div>
 
       </div>
+
+      <!-- course not found -->
       <div class="col-lg-12 col-md-6 mb-4">
         <div id="coursenotfounddiv" style="display: none; margin-top: 15px;" class="alert alert-danger" role="alert">
           <h3 style="text-align: center; font-weight: bold;" id="coursenotfound" ></h3>
@@ -104,7 +106,8 @@
 
      
 
-      
+      <!-- result cards -->
+      <!-- name of book -->
       <div id="result" class="mt-5">
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-primary mb-3" style="max-width: 18rem">
@@ -117,6 +120,7 @@
           </div>
         </div>
 
+        <!-- row of book -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
             <div class="card-header"><h4 class="card-title">Row</h4></div>
@@ -126,6 +130,7 @@
           </div>
         </div>
 
+        <!-- column of book -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
             <div class="card-header"><h4 class="card-title">Column</h4></div>
@@ -135,6 +140,7 @@
           </div>
         </div>
 
+        <!-- shelf of book -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
             <div class="card-header">
@@ -170,13 +176,22 @@
           placeholder="Enter Book Name, Example : Problem Solving"
           class="form-control"
         />
-        <datalist id="suggestionBox"></datalist>
+        <datalist id="BooksuggestionBox"></datalist>
         <div class="search-container">
-          <button onclick="searchBook()" id="search-button" class="btn btn-primary mt-3">
+          <button onclick="searchBook()" id="search-button-book" class="btn btn-primary mt-3">
             Search
           </button>
         </div>
       </div>
+
+      <div>
+           <p id="booktitle"></p>
+        <p id="coursenumber"></p>
+            <p id="isbn"></p>
+            <p id="stocknumber"></p>
+      </div>
+
+      
 
     </div>
   

@@ -1,5 +1,5 @@
 // Sample data structure
-let books = {
+let courses = {
     // column 1
     "coe451": { name: "Information security : principles and practice / Mark Stamp. " , row: 1, column: 1 , shelf: 5},
     "coe449": { name: "Computer security : principles and practice / William Stallings, Lawrie Brown ; with contributions by Mick Bauer [and] Michael Howard.", row: 1, column: 1 , shelf: 4},
@@ -278,6 +278,14 @@ let books = {
 
     
 };
+let books={
+    "Data" : {courseno: "ICS 426", FirstOfISBN : 9780123814791, stockno: 2621200037},
+
+}
+// ise303 ise307 ise420 
+// COLUMN 30 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
+// COLUMN 44 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
+// checking duplicates
 
 
 window.onload = function() {
@@ -294,6 +302,7 @@ window.onload = function() {
 
 
 // styling properties
+// dark mode
 window.addEventListener('load', () => {
     const darkSwitch = document.getElementById('darkSwitch');
     const sunIcon = document.querySelector('.fa-sun');
@@ -310,38 +319,18 @@ window.addEventListener('load', () => {
     });
 });
 
-// toast
-// var toastElList = [].slice.call(document.querySelectorAll('.toast'))
-// var toastList = toastElList.map(function (toastEl) {
-//   return new bootstrap.Toast(toastEl, {
-//     autohide: false
-//   })
-// })
-
-// document.getElementById('search-button').addEventListener('click', function () {
-//   toastList.forEach(toast => toast.show());
-// });
-
-// const myToast =new bootstrap.Toast('.toast');
-// setTimeout(() => myToast.show(), 3000);
 
 
 
 
 
-// ise303 ise307 ise420 
-// COLUMN 30 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
-// COLUMN 44 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
-// checking duplicates
-
-
-function findDuplicateFields(books) {
+function findDuplicateFields(courses) {
     const fields = {}; // Object to store encountered fields
     const duplicates = {}; // Object to store duplicate fields
 
     // Iterate over each book entry
-    for (const code in books) {
-        const field = JSON.stringify(books[code]); // Convert the field object to a string for comparison
+    for (const code in courses) {
+        const field = JSON.stringify(courses[code]); // Convert the field object to a string for comparison
         if (fields[field]) {
             // If the field is already encountered, mark it as a duplicate
             duplicates[code] = true;
@@ -355,7 +344,7 @@ function findDuplicateFields(books) {
     return Object.keys(duplicates);
 }
 
-const duplicateFields = findDuplicateFields(books);
+const duplicateFields = findDuplicateFields(courses);
 console.log("Duplicate fields:", duplicateFields);
 
 // 
@@ -369,7 +358,7 @@ function updateSuggestions() {
     let suggestions = [];
 
     if (inputValue !== '') {
-        suggestions = Object.keys(books).filter(book => book.startsWith(inputValue));
+        suggestions = Object.keys(courses).filter(book => book.startsWith(inputValue));
     }
 
     // Clear previous suggestions
@@ -384,9 +373,9 @@ function updateSuggestions() {
     });
 }
 // Search function
-function searchBook() {
+function searchCourse() {
     let courseNumber = document.getElementById('courseNumber').value.toLowerCase().replace(/\s/g, '');
-    let result = books[courseNumber];
+    let result = courses[courseNumber];
     if(result) {
         // document.getElementById('result').innerText = `Book Name: ${result.name} Row: ${result.row}, Column: ${result.column}, Shelf: ${result.shelf}`;
         document.getElementById('bookname').innerText = `Book Name: ${result.name}`;
@@ -413,6 +402,20 @@ function searchBook() {
     }
 }
 
+
+function searchBook() {
+    let bookName = document.getElementById('bookName').value.toLowerCase(); //.replace(/\s/g, '');
+    let courseresult = books[bookName];
+    console.log(courseresult);
+    if(courseresult){
+        // const bookName = Object.keys(books)[0];
+        // document.getElementById('booktitle').innerText = `Book Name: ${bookName}`;
+        //document.getElementById('booktitle').innerText = `Book Name: ${courseresult.name}`;
+        document.getElementById('coursenumber').innerText = `Course Number: ${courseresult.courseno}`;
+        document.getElementById('isbn').innerText = `ISBN: ${courseresult.FirstOfISBN}`;
+        document.getElementById('stocknumber').innerText = `Stock Number: ${courseresult.stockno}`;
+    }
+}
 
 // styling and stuff
 // dark mode
