@@ -279,7 +279,7 @@ let courses = {
     
 };
 let books={
-    "Data" : {courseno: "ICS 426", FirstOfISBN : 9780123814791, stockno: 2621200037},
+    "Data mining : concepts and techniques / Jiawei Han, Micheline Kamber, Jian Pei." : {courseno: "ICS 426", FirstOfISBN : 9780123814791, stockno: 2621200037},
 
 }
 // ise303 ise307 ise420 
@@ -403,18 +403,59 @@ function searchCourse() {
 }
 
 
+// function searchBook() {
+//     let bookName = document.getElementById('bookName').value.toLowerCase(); //.replace(/\s/g, '');
+//     let courseresult = books[bookName];
+//     console.log(courseresult);
+//     if(courseresult){
+//         const bookName = Object.keys(books)[0];
+//         document.getElementById('booktitle').innerText = `Book Name: ${bookName}`;
+//         //document.getElementById('booktitle').innerText = `Book Name: ${courseresult.name}`;
+//         document.getElementById('coursenumber').innerText = `Course Number: ${courseresult.courseno}`;
+//         document.getElementById('isbn').innerText = `ISBN: ${courseresult.FirstOfISBN}`;
+//         document.getElementById('stocknumber').innerText = `Stock Number: ${courseresult.stockno}`;
+//     }
+// }
+
 function searchBook() {
-    let bookName = document.getElementById('bookName').value.toLowerCase(); //.replace(/\s/g, '');
+    let bookName = document.getElementById('bookName').value;
     let courseresult = books[bookName];
-    console.log(courseresult);
     if(courseresult){
-        // const bookName = Object.keys(books)[0];
-        // document.getElementById('booktitle').innerText = `Book Name: ${bookName}`;
-        //document.getElementById('booktitle').innerText = `Book Name: ${courseresult.name}`;
+        const bookName = Object.keys(books)[0];
+        document.getElementById('booktitle').innerText = `Book Name: ${bookName}`;
         document.getElementById('coursenumber').innerText = `Course Number: ${courseresult.courseno}`;
         document.getElementById('isbn').innerText = `ISBN: ${courseresult.FirstOfISBN}`;
         document.getElementById('stocknumber').innerText = `Stock Number: ${courseresult.stockno}`;
+    } else {
+        document.getElementById('booktitle').innerText = "Book not found. Try another book name.";
+        document.getElementById('coursenumber').innerText = '';
+        document.getElementById('isbn').innerText = '';
+        document.getElementById('stocknumber').innerText = '';
     }
+}
+
+// Autocomplete feature for book search
+let bookInput = document.getElementById('bookName');
+bookInput.addEventListener('input', updateBookSuggestions);
+
+function updateBookSuggestions() {
+    let inputValue = bookInput.value;
+    let suggestions = [];
+
+    if (inputValue !== '') {
+        suggestions = Object.keys(books).filter(book => book.toLowerCase().startsWith(inputValue.toLowerCase()));
+    }
+
+    // Clear previous suggestions
+    let suggestionBox = document.getElementById('BooksuggestionBox');
+    suggestionBox.innerHTML = '';
+
+    // Create new suggestions
+    suggestions.forEach(suggestion => {
+        let option = document.createElement('option');
+        option.value = suggestion;
+        suggestionBox.appendChild(option);
+    });
 }
 
 // styling and stuff
