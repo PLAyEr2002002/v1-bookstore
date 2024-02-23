@@ -108,7 +108,7 @@ h1 {
     position: fixed;
     /* bottom: 0;
     left: 0; */
-    top: 30px;
+    top: 40px;
     right: 20px;
     width: 20%;
     background-color: #e70909;
@@ -129,13 +129,14 @@ margin: auto;
     #columnImage {
         max-width: 800px;
     }
-    h1 {
-        font-size: 30px;
-    }
+    
     
 }
 
 @media (max-width: 768px) { /* Adjust this value as needed */
+    h1 {
+        font-size: 30px;
+    }
     #result {
         flex-direction: column;
         justify-content: center;
