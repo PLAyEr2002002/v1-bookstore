@@ -1131,7 +1131,7 @@ function imagenote() {
     // Hide the popup after 5 seconds
     setTimeout(function() {
         popupp.style.display = 'none';
-    }, 10000);
+    }, 15000);
 }
 
 // Add any other necessary JavaScript initializations here
