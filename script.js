@@ -206,7 +206,9 @@ let courses = {
     "are323": { name: "" , row: 11, column: 29 , shelf: 2},
 
     // column 30
-    "are": { name: "" , row: 11, column: 30 , shelf: 1}, // missingcode numbner
+    "are322": { name: "Mechanical and electrical equipment for buildings / Walter T. Grondzik, Architectural Engineer, Ball State University; Alison G. Kwok, Professor of Architecture, University of Oregon.    " , row: 11, column: 30 , shelf: 6}, // missingcode numbner
+    "are325": { name: "Mechanical and electrical equipment for buildings / Walter T. Grondzik, Architectural Engineer, Ball State University; Alison G. Kwok, Professor of Architecture, University of Oregon.    " , row: 11, column: 30 , shelf: 6},
+    "are328": { name: "Mechanical and electrical equipment for buildings / Walter T. Grondzik, Architectural Engineer, Ball State University; Alison G. Kwok, Professor of Architecture, University of Oregon.    " , row: 11, column: 30 , shelf: 6},
     "are301": { name: "Graphic thinking for architects and designers Paul Laseau    " , row: 11, column: 30 , shelf: 5},
     "are322": { name: "Mechanical and electrical equipment for buildings / Walter T. Grondzik, Architectural Engineer, Ball State University; Alison G. Kwok, Professor of Architecture, University of Oregon.    " , row: 11, column: 30 , shelf: 5},
     "are325": { name: "Mechanical and electrical equipment for buildings / Walter T. Grondzik, Architectural Engineer, Ball State University; Alison G. Kwok, Professor of Architecture, University of Oregon.    " , row: 11, column: 30 , shelf: 5},
@@ -221,62 +223,62 @@ let courses = {
     "are202": { name: "Architects' data / Ernst and Peter Neufert ; updated by Johannes Kister ... [et al.] ; translated by David Sturge.    " , row: 11, column: 30 , shelf: 1},
 
     // column 34
-    "engl214": { name: "Successful writing at work : concise / Philip C. Kolin.    " , row: 6, column: 34 , shelf: "1,2,3"},
+    "engl214": { name: "Successful writing at work : concise / Philip C. Kolin.    " , row: 9, column: 34 , shelf: "1,2,3"},
 
     // column 35
-    "biol233": { name: "Laboratory manual for non-majors biology / David Morton, James Perry, Joy B. Perry ; contributions to animal diversity by Ronald E. Barry, Jr. and evolutionary agents by James H. Howard.    " , row: 6, column: 35 , shelf: "1,2"},
+    "biol233": { name: "Laboratory manual for non-majors biology / David Morton, James Perry, Joy B. Perry ; contributions to animal diversity by Ronald E. Barry, Jr. and evolutionary agents by James H. Howard.    " , row: 9, column: 35 , shelf: "1,2"},
 
     // column 36
-    "math001": { name: "Algebra and trigonometry / James Stewart, Lothar Redlin, Saleem Watson ; with the assistance of Phyllis Panman.    " , row: 6, column: 36 , shelf: "1,2,3,4"},
-    "math002": { name: "Algebra and trigonometry / James Stewart, Lothar Redlin, Saleem Watson ; with the assistance of Phyllis Panman.    " , row: 6, column: 36 , shelf: "1,2,3,4"},
+    "math001": { name: "Algebra and trigonometry / James Stewart, Lothar Redlin, Saleem Watson ; with the assistance of Phyllis Panman.    " , row: 9, column: 36 , shelf: "1,2,3,4"},
+    "math002": { name: "Algebra and trigonometry / James Stewart, Lothar Redlin, Saleem Watson ; with the assistance of Phyllis Panman.    " , row: 9, column: 36 , shelf: "1,2,3,4"},
 
     // column 37
-    "ae454": { name: "" , row: 6, column: 37 , shelf: 3},
-    "ae449": { name: "" , row: 6, column: 37 , shelf: 2},
-    "ae448": { name: "Principles of helicopter aerodynamics / J. Gordon Leishman, D.Sc.(Eng.),Ph.D.,F.R.Ae.S.    " , row: 6, column: 37 , shelf: 1},
+    "ae454": { name: "" , row: 9, column: 37 , shelf: 3},
+    "ae449": { name: "" , row: 9, column: 37 , shelf: 2},
+    "ae448": { name: "Principles of helicopter aerodynamics / J. Gordon Leishman, D.Sc.(Eng.),Ph.D.,F.R.Ae.S.    " , row: 9, column: 37 , shelf: 1},
 
     // column 38
-    "ae427": { name: "Aircraft design : a conceptual approach / Daniel P. Raymer.    " , row: 6, column: 38 , shelf: 4},
-    "ae426": { name: "Introduction to aircraft flight mechanics : performance, static stability, dynamic stability, classical feedback control, and state-space foundations / contributions by Thomas R. Yechout ; with Steven L. Morris, David E. Bossert, Wayne F. Hallgren, James    " , row: 6, column: 38 , shelf: 1},
+    "ae427": { name: "Aircraft design : a conceptual approach / Daniel P. Raymer.    " , row: 9, column: 38 , shelf: 4},
+    "ae426": { name: "Introduction to aircraft flight mechanics : performance, static stability, dynamic stability, classical feedback control, and state-space foundations / contributions by Thomas R. Yechout ; with Steven L. Morris, David E. Bossert, Wayne F. Hallgren, James    " , row: 9, column: 38 , shelf: 1},
 
     // column 39
-    "ae422": { name: "Mechanics and thermodynamics of propulsion Philip G. Hill, Carl R. Peterson    " , row: 6, column: 39 , shelf: 4},
-    "ae401": { name: "Aircraft systems : mechanical, electrical, and avionics subsystems integration / Ian Moir, Allan Seabridge.    " , row: 6, column: 39 , shelf: 3},
-    "ae355": { name: "Applied numerical methods with MATLAB for engineers and scientists / Steven C. Chapra, Berger Chair in Computing and Engineering, Tufts University.    " , row: 6, column: 39 , shelf: 1},
+    "ae422": { name: "Mechanics and thermodynamics of propulsion Philip G. Hill, Carl R. Peterson    " , row: 9, column: 39 , shelf: 4},
+    "ae401": { name: "Aircraft systems : mechanical, electrical, and avionics subsystems integration / Ian Moir, Allan Seabridge.    " , row: 9, column: 39 , shelf: 3},
+    "ae355": { name: "Applied numerical methods with MATLAB for engineers and scientists / Steven C. Chapra, Berger Chair in Computing and Engineering, Tufts University.    " , row: 9, column: 39 , shelf: 1},
 
     // column 40
-    "ae333": { name: "Fundamentals of aerodynamics / John D. Anderson, Jr    " , row: 6, column: 40 , shelf: 4},
-    "ae433": { name: "" , row: 6, column: 40 , shelf: 4},
-    "ae328": { name: "Aircraft structures for engineering students / T.H.G. Megson.    " , row: 6, column: 40 , shelf: 3},
-    "ae325": { name: "Gas dynamics/ James E. A. John    " , row: 6, column: 40 , shelf: 2},
-    "ae313": { name: "Modern control systems / Richard C. Dorf, University of California, Davis, Robert H. Bishop, The University of South Florida.    " , row: 6, column: 40 , shelf: 1},
+    "ae333": { name: "Fundamentals of aerodynamics / John D. Anderson, Jr    " , row: 9, column: 40 , shelf: 4},
+    "ae433": { name: "" , row: 9, column: 40 , shelf: 4},
+    "ae328": { name: "Aircraft structures for engineering students / T.H.G. Megson.    " , row: 9, column: 40 , shelf: 3},
+    "ae325": { name: "Gas dynamics/ James E. A. John    " , row: 9, column: 40 , shelf: 2},
+    "ae313": { name: "Modern control systems / Richard C. Dorf, University of California, Davis, Robert H. Bishop, The University of South Florida.    " , row: 9, column: 40 , shelf: 1},
 
     // column 41
-    "ae230": { name: "" , row: 6, column: 41 , shelf: 4},
-    "ae240": { name: "Aircraft performance and design / John D. Anderson, Jr.    " , row: 6, column: 41 , shelf: 4},
-    "ae228": { name: "" , row: 6, column: 41 , shelf: 3},
-    "ae220": { name: "Introduction to flight / John D. Anderson, Jr.    " , row: 6, column: 41 , shelf: 2},
-    "ae221": { name: "" , row: 6, column: 41 , shelf: 1},
-    "ae211": { name: "" , row: 6, column: 41 , shelf: 1},
+    "ae230": { name: "" , row: 9, column: 41 , shelf: 4},
+    "ae240": { name: "Aircraft performance and design / John D. Anderson, Jr.    " , row: 9, column: 41 , shelf: 4},
+    "ae228": { name: "" , row: 9, column: 41 , shelf: 3},
+    "ae220": { name: "Introduction to flight / John D. Anderson, Jr.    " , row: 9, column: 41 , shelf: 2},
+    "ae221": { name: "" , row: 9, column: 41 , shelf: 1},
+    "ae211": { name: "" , row: 9, column: 41 , shelf: 1},
 
     // column 43
-    "as483": { name: "Loss models : from data to decisions / Stuart A. Klugman, Harry H. Panjer, Gordon E. Willmot.    " , row: 6, column: 43 , shelf: 4},
-    "as475": { name: "Survival analysis : a self-learning text / David G. Kleinbaum, Mitchel Klein.    " , row: 6, column: 43 , shelf: 3},
-    "as482": { name: "Models for quantifying risk / Stephen J. Camilli, ASA, Richard L. London, FSA ; Ian Duncan, FSA, FIA, FCIA, MAAA.    " , row: 6, column: 43 , shelf: 3},
-    "as388": { name: "ACTEX SOA exam P study manual / Samuel A. Broverman, Ph.D., ASA.    " , row: 6, column: 43 , shelf: 2},
-    "as389": { name: "" , row: 6, column: 43 , shelf: 2},
-    "as450": { name: "" , row: 6, column: 43 , shelf: 2},
-    "as380": { name: "" , row: 6, column: 43 , shelf: 1},
-    "as381": { name: "Actuarial mathematics by Newton L. Bowers ...<et al.>    " , row: 6, column: 43 , shelf: 1},
+    "as483": { name: "Loss models : from data to decisions / Stuart A. Klugman, Harry H. Panjer, Gordon E. Willmot.    " , row: 9, column: 43 , shelf: 4},
+    "as475": { name: "Survival analysis : a self-learning text / David G. Kleinbaum, Mitchel Klein.    " , row: 9, column: 43 , shelf: 3},
+    "as482": { name: "Models for quantifying risk / Stephen J. Camilli, ASA, Richard L. London, FSA ; Ian Duncan, FSA, FIA, FCIA, MAAA.    " , row: 9, column: 43 , shelf: 3},
+    "as388": { name: "ACTEX SOA exam P study manual / Samuel A. Broverman, Ph.D., ASA.    " , row: 9, column: 43 , shelf: 2},
+    "as389": { name: "" , row: 9, column: 43 , shelf: 2},
+    "as450": { name: "" , row: 9, column: 43 , shelf: 2},
+    "as380": { name: "" , row: 9, column: 43 , shelf: 1},
+    "as381": { name: "Actuarial mathematics by Newton L. Bowers ...<et al.>    " , row: 9, column: 43 , shelf: 1},
 
     // column 44
-    "as322": { name: "" , row: 6, column: 44 , shelf: 4},
-    "as": { name: "" , row: 6, column: 44 , shelf: 1},//MISSING CODE NUMBER
-    "as250": { name: "" , row: 6, column: 44 , shelf: 2},
-    "as470": { name: "" , row: 6, column: 44 , shelf: 2},
-    "as498": { name: "Derivatives markets / Robert L. McDonald.    " , row: 6, column: 44 , shelf: 2},
-    "as288": { name: "SOA exam FM/2 / Gail Hall, Richard London.    " , row: 6, column: 44 , shelf: 2},
-    "as201": { name: "Mathematics of investment and credit / Samuel A. Broverman.    " , row: 6, column: 44 , shelf: 1},
+    "as322": { name: "" , row: 9, column: 44 , shelf: 4},
+    "as289": { name: "" , row: 9, column: 44 , shelf: 3},
+    "as250": { name: "" , row: 9, column: 44 , shelf: 2},
+    "as470": { name: "" , row: 9, column: 44 , shelf: 2},
+    "as498": { name: "Derivatives markets / Robert L. McDonald.    " , row: 9, column: 44 , shelf: 2},
+    "as288": { name: "SOA exam FM/2 / Gail Hall, Richard London.    " , row: 9, column: 44 , shelf: 2},
+    "as201": { name: "Mathematics of investment and credit / Samuel A. Broverman.    " , row: 9, column: 44 , shelf: 1},
 
     
 };
@@ -1110,7 +1112,7 @@ let books={
 }
 // ise303 ise307 ise420 
 // COLUMN 30 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
-// COLUMN 44 ARE BOTTOM SHELF COURSE NUMBER IS MISSING
+
 // checking duplicates
 
 
