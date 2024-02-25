@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!-- time spent: 20  -->
-<html>
+<!-- الوقت المستغرق: 20 -->
+<html dir="rtl" lang="ar">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />  -->
-    <title>University Bookstore</title>
+    <title>مكتبة الجامعة</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -14,26 +13,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-   
-
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
 
- <!-- dev message popup-->
+ <!-- رسالة المطور -->
   <div id="popup" class="popup">
-      <p>Developer Message: Site under construction </p>
+      <p>رسالة المطور: الموقع تحت الإنشاء</p>
   </div>
 
 <div id="imageloadwarning" class="popupp">
-    <p>PLEASE NOTE! Images might take some time to load </p>
-    <p>The Shelf numbers might CHANGE from time to time</p>
-    <p style="font-size: small;">This message will auto dissapear in 15 seconds</p>
+    <p>تنبيه! قد يستغرق تحميل الصور بعض الوقت</p>
+    <p>قد تتغير أرقام الأرفف من وقت لآخر</p>
+    <p style="font-size: small;">هذه الرسالة ستختفي تلقائيًا خلال 15 ثانية</p>
 </div>
 
-    <!-- navbar -->
+    <!-- شريط التنقل -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">KFUPM Bookstore</a>
+      <a class="navbar-brand" href="index.html">مكتبة KFUPM</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -41,17 +38,14 @@
         data-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
-        aria-label="Toggle navigation"
+        aria-label="تبديل التنقل"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="courses.html">All Courses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="indexar.html">Arabic</a>
+            <a class="nav-link" href="courses.html">جميع الدورات</a>
           </li>
           <li class="nav-item ml-3 mt-2">
 
@@ -61,7 +55,6 @@
                 class="custom-control-input"
                 id="darkSwitch"
               />
-              <!-- <label id="darkswitchtext" class="custom-control-label " for="darkSwitch">Dark Mode</label> -->
               <label class="custom-control-label" for="darkSwitch">
                 <i class="fas fa-sun"></i>
                 <i class="fas fa-moon" style="display: none"></i>
@@ -71,27 +64,21 @@
         </ul>
       </div>
     </nav>
-    <!-- navbar end -->
-
-    <!-- live toast -->
-
+    <!-- نهاية شريط التنقل -->
 
     <div class="container mt-5">
 
 
-      <h1 class="text-center">KFUPM Bookstore</h1>
-      <h5 class="text-center">Search for a book by course number</h>
+      <h1 class="text-center">مكتبة KFUPM</h1>
+      <h5 class="text-center">ابحث عن كتاب برقم الدورة</h5>
       <h5 class="text-center">
-        Check which courses have books available <a href="courses.html">here</a>
+        تحقق من الدورات التي تتوفر بها كتب <a href="courses.html">هنا</a>
       </h5>
-      <h4 class="text-center">Example : Ics 108</h4>
+      <h4 class="text-center">مثال: Ics 108</h4>
 
       <div class="text-center mb-5">
-        <button type="button" class="btn btn-danger" id="imagenote" onclick="imagenote()">NOTE! (Click Me)</button>
+        <button type="button" class="btn btn-danger" id="imagenote" onclick="imagenote()">ملاحظة! (اضغط هنا)</button>
       </div>
-
-      
-
 
       <div class="row justify-content-center">
         
@@ -100,20 +87,18 @@
             type="text"
             id="courseNumber"
             list="suggestionBox"
-            placeholder="Enter course number, Example : Ics 108"
+            placeholder="أدخل رقم الدورة، مثال: Ics 108"
             class="form-control"
           />
           <datalist id="suggestionBox"></datalist>
           <div class="search-container">
             <button onclick="searchCourse()" id="search-button-course" class="btn btn-primary mt-3">
-              Search
+              بحث
             </button>
           </div>
         </div>
 
-      
-
-            <!-- course not found -->
+            <!-- لم يتم العثور على الدورة -->
             <div class="col-lg-12 col-md-6 mb-4">
               <div id="coursenotfounddiv" style="display: none; margin-top: 15px;" class="alert alert-danger" role="alert">
                 <h3 style="text-align: center; font-weight: bold;" id="coursenotfound" ></h3>
@@ -121,13 +106,12 @@
               
             </div>
 
-      <!-- result cards -->
-      <!-- name of book -->
+      <!-- بطاقات النتائج -->
       <div id="result" class="mt-5">
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-primary mb-3" style="max-width: 18rem">
             <div class="card-header">
-              <h4 class="card-title">Name Of Book</h4>
+              <h4 class="card-title">اسم الكتاب</h4>
             </div>
             <div class="card-body">
               <p class="card-text" id="bookname"></p>
@@ -135,80 +119,55 @@
           </div>
         </div>
 
-        <!-- row of book -->
+        <!-- صف الكتاب -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
-            <div class="card-header"><h4 class="card-title">Row</h4></div>
+            <div class="card-header"><h4 class="card-title">الصف</h4></div>
             <div class="card-body">
               <p class="card-text" id="row"></p>
             </div>
           </div>
         </div>
 
-        <!-- column of book -->
+        <!-- عمود الكتاب -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
-            <div class="card-header"><h4 class="card-title">Column</h4></div>
+            <div class="card-header"><h4 class="card-title">العمود</h4></div>
             <div class="card-body">
               <p class="card-text" id="column"></p>
             </div>
           </div>
         </div>
 
-        <!-- shelf of book -->
+        <!-- رقم رف الكتاب -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
             <div class="card-header">
-              <h4 class="card-title">Shelf Number</h4>
+              <h4 class="card-title">رقم الرف</h4>
             </div>
             <div class="card-body">
               <p class="card-text" id="shelf"></p>
             </div>
           </div>
         </div>
-
-        <!-- <p id="bookname"></p> -->
-        <!-- <p id="row"></p>
-            <p id="column"></p>
-            <p id="shelf"></p> -->
       </div>
-
     </div>
+
     <div class="row justify-content-center">
-      <img id="columnImage" src="images/KFUPM.png" alt="column image" class="mt-3" />
-    </div>
+      <img id="columnImage" src="images/KFUPM.png" alt="صورة العمود" class="mt-3" />
     </div>
 <br>
-
-<br>
-
-<!-- book search -->
 
 <div class="container mt-5">
-  <h3 class="text-center">Search for a <em>BOOK</em> and get the course number</h3>
+  <h3 class="text-center">ابحث عن <em>كتاب</em> واحصل على رقم الدورة</h3>
   <div class="row justify-content-center">
-    <!-- <div class="col-md-6">
-      <input
-        type="text"
-        id="bookName"
-        list="BooksuggestionBox"
-        placeholder="Enter Book Name, Example : Problem Solving"
-        class="form-control"
-      />
-      <datalist id="BooksuggestionBox"></datalist>
-      <div class="search-container">
-        <button onclick="searchBook()" id="search-button-book" class="btn btn-primary mt-3">
-          Search
-        </button>
-      </div>
-    </div> -->
 
     <div class="col-md-6">
       <div class="autocomplete-container">
           <input
               type="text"
               id="bookName"
-              placeholder="Enter Book Name, Example : Problem Solving"
+              placeholder="أدخل اسم الكتاب، مثال: حل المشكلات"
               class="form-control"
               oninput="updateBookSuggestions()"
           />
@@ -216,20 +175,12 @@
       </div>
       <div class="search-container">
           <button onclick="searchBook()" id="search-button-book" class="btn btn-primary mt-3">
-              Search
+              بحث
           </button>
       </div>
   </div>
 
-<!-- 
-    <div>
-         <p id="booktitle"></p>
-      <p id="coursenumber"></p>
-          <p id="isbn"></p>
-          <p id="stocknumber"></p>
-    </div> -->
-
-          <!-- book not found -->
+          <!-- لم يتم العثور على الكتاب -->
           <div class="col-lg-12 col-md-6 mb-4">
             <div id="booknotfounddiv" style="display: none; margin-top: 15px; background-color: #f81d0d;" class="alert alert-danger" role="alert">
               <h3 style="text-align: center; font-weight: bold;" id="booknotfound" ></h3>
@@ -237,14 +188,12 @@
             
           </div>
 
-
-       <!-- result cards -->
-      <!-- name of book -->
+       <!-- بطاقات النتائج -->
       <div id="resultt" class="mt-5">
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-primary mb-3" style="max-width: 18rem">
             <div class="card-header">
-              <h4 class="card-title">Book Name</h4>
+              <h4 class="card-title">اسم الكتاب</h4>
             </div>
             <div class="card-body">
               <p class="card-text" id="booktitle"></p>
@@ -252,31 +201,31 @@
           </div>
         </div>
 
-        <!-- row of book -->
+        <!-- رقم الدورة -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-success mb-3" style="max-width: 18rem">
-            <div class="card-header"><h4 class="card-title">Course Number</h4></div>
+            <div class="card-header"><h4 class="card-title">رقم الدورة</h4></div>
             <div class="card-body">
               <p class="card-text" id="coursenumber"></p>
             </div>
           </div>
         </div>
 
-        <!-- column of book -->
+        <!-- رقم الـ ISBN -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
-            <div class="card-header"><h4 class="card-title">ISBN Number</h4></div>
+            <div class="card-header"><h4 class="card-title">رقم الـISBN</h4></div>
             <div class="card-body">
               <p class="card-text" id="isbn"></p>
             </div>
           </div>
         </div>
 
-        <!-- shelf of book -->
+        <!-- رقم المخزون -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card bg-info mb-3" style="max-width: 18rem">
             <div class="card-header">
-              <h4 class="card-title">Stock Number</h4>
+              <h4 class="card-title">رقم المخزون</h4>
             </div>
             <div class="card-body">
               <p class="card-text" id="stocknumber"></p>
@@ -285,27 +234,18 @@
         </div>
     
 
-    
-
   </div>
 </div>
 </div>
 
-  
-    <!-- footer -->
-
+    <!-- تذييل -->
     <footer class="bg-body-tertiary text-center text-lg-start">
-      <!-- Copyright -->
-      <div
-        class="text-center p-3"
-        style="background-color: rgba(0, 0, 0, 0.05)"
-      >
-        With Love from Kfupm © 2024
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05)">
+        بكل حب من Kfupm © 2024
       </div>
-      <!-- Copyright -->
     </footer>
 
-    <!-- scripts -->
+    <!-- السكربتات -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script  src="script.js"></script>
