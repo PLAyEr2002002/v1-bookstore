@@ -80,7 +80,12 @@ h1 {
     height: auto; /* This will maintain the aspect ratio of the image */
     border-radius: 15px 50px;
 }
+#rowImage {
+    max-width: 100%; /* This will make the image responsive on all devices */
+    height: 300px; /* This will maintain the aspect ratio of the image */
+    border-radius: 50%;
 
+}
 
 /*  */
 .autocomplete-container {
@@ -149,7 +154,7 @@ margin: auto;
 
 /* On devices with a width of 768px or more, the image will be displayed at a maximum width of 600px */
 @media (min-width: 768px) {
-    #columnImage {
+    #columnImage, rowImage {
         max-width: 100%; /*  changed it to a percent from 800px*/
 
     }

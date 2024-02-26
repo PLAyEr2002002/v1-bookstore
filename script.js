@@ -1273,11 +1273,14 @@ function searchCourse() {
         document.getElementById('column').innerText = `Column: ${result.column}`;
         document.getElementById('shelf').innerText = `Shelf: ${result.shelf}`; 
         document.getElementById('columnImage').src= `images/${result.column}.jpg`; 
+        document.getElementById('rowImage').style.display = 'block';
+        document.getElementById('rowImage').src= `images/row${result.row}.jpg`; 
     } else {
         document.getElementById('coursenotfounddiv').style.display = 'block';
         document.getElementById('coursenotfound').innerText = "Course Not Found. Try Another Course Number.";
 
         document.getElementById('columnImage').src = 'images/KFUPM.png';
+        document.getElementById('rowImage').src = 'images/KFUPM.png';
         document.getElementById('courseNumber').value = ''; // Clear the input field
 
         document.getElementById('bookname').innerText = '';
