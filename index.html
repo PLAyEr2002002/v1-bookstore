@@ -95,16 +95,17 @@
       </div>
       <!-- live toast end -->
 
-      <div class="btn-container d-grid gap-2 col-6 mx-auto">
-        <button id="courseBtn" class="btn btn-primary" type="button">Course Search</button>
-        <button id="bookBtn" class="btn btn-primary" type="button">Book Search</button>
+      <div class="btn-container">
+        <button id="courseBtn" class="btn  btn-outline-success m-3 w-100" type="button">Course Search</button>
+        <button id="bookBtn" class="btn btn-outline-warning m-3 w-100" type="button">Book Search</button>
     </div>
 
 
+  
       <!-- course search by course number START-->
       
       <div style="display: none;" id="COURSESEARCH">
-        <h5 class="text-center">Search for a book by course number</h5>
+        <h3 class="text-center">Search for a <strong>COURSE</strong> <em><strong>location</strong></em> by <em>course number</em></h3>
         <h4 class="text-center">Example : Ics 108</h4>
         <div class="row justify-content-center">
           <div class="col-md-6">
@@ -112,7 +113,7 @@
               type="text"
               id="courseNumber"
               list="suggestionBox"
-              placeholder="Enter course number, Example : Ics 108"
+              placeholder="Enter course number, Example : Swe 206"
               class="form-control"
             />
             <datalist id="suggestionBox"></datalist>
@@ -210,9 +211,8 @@
     </div>
 
     <!-- course search by course number  END-->
-    <br />
+  
 
-    <br />
 
     <!-- book search by book name START -->
 
