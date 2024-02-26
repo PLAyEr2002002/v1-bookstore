@@ -280,7 +280,75 @@ let courses = {
     "as288": { name: "SOA exam FM/2 / Gail Hall, Richard London.    " , row: 9, column: 44 , shelf: 2},
     "as201": { name: "Mathematics of investment and credit / Samuel A. Broverman.    " , row: 9, column: 44 , shelf: 1},
 
-    
+
+
+
+
+    // column 61
+    "chem201": { name: "", row: 1, column: 61 , shelf: '1,2,3,4' },
+    "chem202": { name: "", row: 1, column: 61 , shelf: '1,2,3,4'},
+
+    // column 64
+    "chem204": { name: "", row: 1, column: 64 , shelf: 1},
+    "chem212": { name: "", row: 1, column: 64 , shelf: '2,3,4'},
+    "chem311": { name: "", row: 1, column: 64 , shelf:' 2,3,4'},
+    "chem312": { name: "", row: 1, column: 64 , shelf: '2,3,4'},
+
+    // column 65
+    "chem221": { name: "", row: 1, column: 65 , shelf: 1},
+    "chem236": { name: "", row: 1, column: 65 , shelf: '2,3'},
+    "chem305": { name: "", row: 1, column: 65 , shelf: 4},
+
+    // column 66
+    "chem321": { name: "", row: 1, column: 66 , shelf: '1,2,3'},
+    "chem324": { name: "", row: 1, column: 66 , shelf: '1,2,3'},
+    "chem327": { name: "", row: 1, column: 66 , shelf: 4},
+    "chem355": { name: "", row: 1, column: 66 , shelf: 4},
+
+    // column 67
+    "chem336": { name: "", row: 1, column: 67 , shelf: 1},
+    "chem363": { name: "", row: 1, column: 67 , shelf: 2},
+    "chem402": { name: "", row: 1, column: 67 , shelf: 2},
+    "chem403": { name: "", row: 1, column: 67 , shelf: 3},
+    "chem406": { name: "", row: 1, column: 67 , shelf: 3},
+    "chem428": { name: "", row: 1, column: 67 , shelf: 4},
+    "chem451": { name: "", row: 1, column: 67 , shelf: 4},
+
+    // column 68
+    "chem456": { name: "", row: 1, column: 68 , shelf: 1},
+    "chem463": { name: "", row: 1, column: 68 , shelf: 2},
+
+
+
+    // column 88
+    "math405": { name: "", row: 2, column: 88 , shelf: "1"},
+    "math427": { name: "", row: 2, column: 88 , shelf: "2"},
+    "math455": { name: "", row: 2, column: 88 , shelf: "2"},
+    "math433": { name: "", row: 2, column: 88 , shelf: "2"},
+    "math432": { name: "", row: 2, column: 88 , shelf: "3"},
+    "math431": { name: "", row: 2, column: 88 , shelf: "3"},
+    "math460": { name: "", row: 2, column: 88 , shelf: "3"},
+    "math435": { name: "", row: 2, column: 88 , shelf: "3"},
+    "math445": { name: "", row: 2, column: 88 , shelf: "4"},
+    "math499": { name: "", row: 2, column: 88 , shelf: "4"},  
+        
+    // column 89
+    "math451": { name: "", row: 2, column: 89 , shelf: "1"},
+    "math440": { name: "", row: 2, column: 89 , shelf: "1"},
+    "math401": { name: "", row: 2, column: 89 , shelf: "2"},
+    "math433": { name: "", row: 2, column: 89 , shelf: "2"},
+    "math425": { name: "", row: 2, column: 89 , shelf: "3"},
+    "math467": { name: "", row: 2, column: 89 , shelf: "3"},
+    "math453": { name: "", row: 2, column: 89 , shelf: "4"},
+
+    // column 90
+    "math474": { name: "", row: 2, column: 90 , shelf: "1"},
+    "math463": { name: "", row: 2, column: 90 , shelf: "2"},
+    "math473": { name: "", row: 2, column: 90 , shelf: "3"},
+    "math460": { name: "", row: 2, column: 90 , shelf: "4"},
+
+
+
 };
 let books={
 
