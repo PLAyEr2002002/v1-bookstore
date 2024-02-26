@@ -1227,6 +1227,18 @@ window.addEventListener('load', () => {
 });
 
 
+// display each item 
+document.getElementById('courseBtn').addEventListener('click', function() {
+    document.getElementById('COURSESEARCH').style.display = 'block';
+    document.getElementById('BOOKSEARCH').style.display = 'none';
+});
+
+document.getElementById('bookBtn').addEventListener('click', function() {
+    document.getElementById('COURSESEARCH').style.display = 'none';
+    document.getElementById('BOOKSEARCH').style.display = 'block';
+});
+
+
 // Autocomplete feature
 let input = document.getElementById('courseNumber');
 input.addEventListener('input', updateSuggestions);
