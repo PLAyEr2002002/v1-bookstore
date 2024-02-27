@@ -1,4 +1,38 @@
 {
+    "DEV_MESSAGE": "Developer Message: Site under construction",
+    "LOAD_WARNING_1": "PLEASE NOTE! Images might take some time to load",
+    "LOAD_WARNING_2": "The Shelf numbers might CHANGE from time to time",
+    "LOAD_WARNING_3": "This message will auto dissapear in 15 seconds",
+
+    "NAVBAR_TITLE": "KFUPM Bookstore",
+    "NAVBAR_ALL_COURSES": "All courses",
+    "NAVBAR_LANGUAGE_SELECT": "Language",
+
     "heading_title":"KFUPM BOOKSTORE",
-    "heading_title_2": "Check which courses have books available"
+    "heading_title_2": "Check which courses have books available <a href='courses.html'>HERE</a>",
+
+    "NOTE_BUTTON": "NOTE! (Click Me)",
+
+    "COURSE_SEARCH_BUTTON": "Course Search",
+    "BOOK_SEARCH_BUTTON": "Book Search",
+
+    "COURSE_SEARCH_SEARCHBAR": " Search for a <strong>COURSE</strong><em><strong>location</strong></em> by <em>course number</em>",
+    "COURSE_SEARCH_SEARCHBAR_SUGGESTION_TEXT": "Example : Ics 108",
+
+    "COURSE_SEARCH_SEARCHBAR_BUTTON":"Search",
+
+    "COURSE_SEARCH_NAME_OF_BOOK": "Name of book",
+    "COURSE_SEARCH_ROW_BOOK": "Row",
+    "COURSE_SEARCH_COLUMN_BOOK": "Column",
+    "COURSE_SEARCH_SHELF_BOOK": "Shelf Number",
+
+
+    "BOOK_SEARCH_TITLE": "Search for a <em>BOOK</em> and get the course number and stock number",
+
+    "BOOK_SEARCH_SEARCHBAR_BUTTON": "Search",
+
+    "BOOK_SEARCH_NAME_OF_BOOK": "Book Name",
+    "BOOK_SEARCH_COURSE_NUMBER": "Course Number",
+    "BOOK_SEARCH_ISBN": "ISBN Number",
+    "BOOK_SEARCH_STOCK_NUMBER": "Stock Number"
 }
