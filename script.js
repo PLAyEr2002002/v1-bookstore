@@ -349,6 +349,271 @@ let courses = {
 
 
 
+
+
+
+
+    // MASTERS
+    // column 301
+    "ls511": { name: "", row: 12, column: 301 , shelf: 1 },
+
+    "ls513": { name: "", row: 12, column: 301 , shelf: 1},
+    "ls524": { name: "", row: 12, column: 301 , shelf: 1},
+
+    "ls541": { name: "", row: 12, column: 301 , shelf: 2 },
+
+    "ls542": { name: "", row: 12, column: 301 , shelf: 2 },
+
+    "ls551": { name: "", row: 12, column: 301 , shelf: 2 },
+
+    "ls533": { name: "", row: 12, column: 301 , shelf: 2 },
+
+    "ls564": { name: "", row: 12, column: 301 , shelf: 3 },
+
+    "ls572": { name: "", row: 12, column: 301 , shelf: 3 },
+
+    //column 302
+    "coe501": { name: "", row: 12, column: 302 , shelf: 1 },
+
+    "coe502": { name: "", row: 12, column: 302 , shelf: 1 },
+
+    "coe507": { name: "", row: 12, column: 302 , shelf: 1 }, 
+
+    "coe540": { name: "", row: 12, column: 302 , shelf: 2 },
+
+
+    "coe547": { name: "", row: 12, column: 302 , shelf: 2 },
+
+    "coe561": { name: "", row: 12, column: 302 , shelf: 2 },
+
+    "coe572": { name: "", row: 12, column: 302 , shelf: 3 },
+
+    "swe505": { name: "", row: 12, column: 302 , shelf: 3 },
+
+    "swe516": { name: "", row: 12, column: 302 , shelf: 3 },
+
+    "swe539": { name: "", row: 12, column: 302 , shelf: 4 },
+
+
+    "swe587": { name: "", row: 12, column: 302 , shelf: 4 }, 
+
+    // column 303
+
+    "ics501": { name: "", row: 12, column: 303 , shelf: 1 },
+
+    "ics531": { name: "", row: 12, column: 303 , shelf: 1 },
+
+    "ics535": { name: "", row: 12, column: 303 , shelf: 1 },
+
+    "ics541": { name: "", row: 12, column: 303 , shelf: 2 },
+
+    "ics547": { name: "", row: 12, column: 303 , shelf: 2 },
+
+    "ics547": { name: "", row: 12, column: 303 , shelf: 2 },
+
+    "ics553": { name: "", row: 12, column: 303 , shelf: 3 },
+
+    "ics555": { name: "", row: 12, column: 303 , shelf: 3 },
+
+    "ics570": { name: "", row: 12, column: 303 , shelf: 3 },
+
+    "ics582": { name: "", row: 12, column: 303 , shelf: 4 },
+
+    // column 304
+
+    "ise501": { name: "", row: 12, column: 304 , shelf: 1 },
+
+    "ise503": { name: "", row: 12, column: 304 , shelf: 1 },
+
+    "ise502": { name: "", row: 12, column: 304 , shelf: 1 },
+
+    "ise508": { name: "", row: 12, column: 304 , shelf: 1 },
+
+    "ise510": { name: "", row: 12, column: 304 , shelf: 2 },
+
+    "ise521": { name: "", row: 12, column: 304 , shelf: 2 },
+
+    "ise529": { name: "", row: 12, column: 304 , shelf: 2 },
+
+    "ise548": { name: "", row: 12, column: 304 , shelf: 3 },
+
+    "sce507": { name: "", row: 12, column: 304 , shelf: 3 },
+
+    "sce514": { name: "", row: 12, column: 304 , shelf: 3 },
+
+
+    "sce517": { name: "", row: 12, column: 304 , shelf: 4 },
+
+    // column 305
+
+    "pete512": { name: "", row: 12, column: 305 , shelf: 1 },
+
+    "pete523": { name: "", row: 12, column: 305 , shelf: 1 },
+
+    "pete520": { name: "", row: 12, column: 305 , shelf: 1 },
+
+    "pete543": { name: "", row: 12, column: 305 , shelf: 2 },
+
+    "pete544": { name: "", row: 12, column: 305 , shelf: 2 },
+
+    "pete670": { name: "", row: 12, column: 305 , shelf: 2 },
+
+
+    "ae520": { name: "", row: 12, column: 305 , shelf: 3 },
+
+    "ae524": { name: "", row: 12, column: 305 , shelf: 3 },
+
+    "ae530": { name: "", row: 12, column: 305 , shelf: 3 },
+
+    "ae532": { name: "", row: 12, column: 305 , shelf: 4 },
+
+    "ae539": { name: "", row: 12, column: 305 , shelf: 4 },
+
+    "ae540": { name: "", row: 12, column: 305 , shelf: 4 },
+
+    // column 306
+
+    "me576": { name: "", row: 12, column: 306 , shelf: 1 },
+
+    "me575": { name: "", row: 12, column: 306 , shelf: 1 },
+
+    "me479": { name: "", row: 12, column: 306 , shelf: 1 },
+
+    "me577": { name: "", row: 12, column: 306 , shelf: 1 },
+
+    "me583": { name: "", row: 12, column: 306 , shelf: 1 },
+
+    "me578": { name: "", row: 12, column: 306 , shelf: 1 },
+
+    "me579": { name: "", row: 12, column: 306 , shelf: 2 },
+
+    "me577": { name: "", row: 12, column: 306 , shelf: 2 },
+
+    "me583": { name: "", row: 12, column: 306 , shelf: 2 },
+
+    "me585": { name: "", row: 12, column: 306 , shelf: 2 },
+
+    "mse500": { name: "", row: 12, column: 306 , shelf: 3 },
+
+    "mse501": { name: "", row: 12, column: 306 , shelf: 3 },
+
+    "mse502": { name: "", row: 12, column: 306 , shelf: 4 },
+
+    "mse544": { name: "", row: 12, column: 306 , shelf: 4 },
+
+    // column 307
+
+    "me501": { name: "", row: 12, column: 307 , shelf: 1 },
+
+    "me531": { name: "", row: 12, column: 307 , shelf: 1 },
+
+    "me532": { name: "", row: 12, column: 307 , shelf: 1 },
+
+    "me534": { name: "", row: 12, column: 307 , shelf: 1 },
+
+    "me535": { name: "", row: 12, column: 307 , shelf: 2 },
+
+    "me536": { name: "", row: 12, column: 307 , shelf: 2 },
+
+    "me537": { name: "", row: 12, column: 307 , shelf: 2 },
+
+
+    "me539": { name: "", row: 12, column: 307 , shelf: 2 },
+
+    "me551": { name: "", row: 12, column: 307 , shelf: 3 },
+
+
+    "me552": { name: "", row: 12, column: 307 , shelf: 3 },
+
+    "me553": { name: "", row: 12, column: 307 , shelf: 3 },
+
+    "me542": { name: "", row: 12, column: 307 , shelf: 3 },
+
+    "me554": { name: "", row: 12, column: 307 , shelf: 3 },
+
+    "me564": { name: "", row: 12, column: 307 , shelf: 4 },
+
+    "me572": { name: "", row: 12, column: 307 , shelf: 4 },
+
+    "me575": { name: "", row: 12, column: 307 , shelf: 4 },
+
+
+    // column 308
+
+    "ee562": { name: "", row: 12, column: 308 , shelf: 1 },
+
+
+    "ee570": { name: "", row: 12, column: 308 , shelf: 1 },
+
+
+    "ee571": { name: "", row: 12, column: 308 , shelf: 1 },
+
+
+    "ee573": { name: "", row: 12, column: 308 , shelf: 1 },
+
+
+    "ee576": { name: "", row: 12, column: 308 , shelf: 2 },
+
+
+    "ee577": { name: "", row: 12, column: 308 , shelf: 2 },
+
+    "ee578": { name: "", row: 12, column: 308 , shelf: 2 },
+
+    "ee580": { name: "", row: 12, column: 308 , shelf: 2 },
+
+    "ee620": { name: "", row: 12, column: 308 , shelf: 2 },
+
+    "ee622": { name: "", row: 12, column: 308 , shelf: 3 },
+
+
+    "ee623": { name: "", row: 12, column: 308 , shelf: 3 },
+
+    "ee633": { name: "", row: 12, column: 308 , shelf: 3 },
+
+    "ee652": { name: "", row: 12, column: 308 , shelf: 3 },
+
+    "ee662": { name: "", row: 12, column: 308 , shelf: 4 },
+
+    "ee663": { name: "", row: 12, column: 308 , shelf: 4 },
+
+    //column 309
+
+    "ee520": { name: "", row: 12, column: 309 , shelf: 1 },
+
+
+    "ee523": { name: "", row: 12, column: 309 , shelf: 1 },
+
+    "ee524": { name: "", row: 12, column: 309 , shelf: 1 },
+
+    "ee525": { name: "", row: 12, column: 309 , shelf: 1 },
+
+
+    "ee528": { name: "", row: 12, column: 309 , shelf: 2 },
+
+    "ee530": { name: "", row: 12, column: 309 , shelf: 2 },
+
+
+
+    "ee530": { name: "", row: 12, column: 309 , shelf: 2 },
+
+    "ee531": { name: "", row: 12, column: 309 , shelf: 2 },
+
+    "ee532": { name: "", row: 12, column: 309 , shelf: 2 },
+
+
+    "ee533": { name: "", row: 12, column: 309 , shelf: 3 },
+
+    "ee542": { name: "", row: 12, column: 309 , shelf: 3 },
+
+    "ee545": { name: "", row: 12, column: 309 , shelf: 3 },
+
+    "ee533": { name: "", row: 12, column: 309 , shelf: 3 },
+
+    "ee507": { name: "", row: 12, column: 309 , shelf: 4 },
+
+    "ee552": { name: "", row: 12, column: 309 , shelf: 4 },
+
+    "ee555": { name: "", row: 12, column: 309 , shelf: 4 },
 };
 let books={
 
