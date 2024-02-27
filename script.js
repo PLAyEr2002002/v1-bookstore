@@ -614,6 +614,34 @@ let courses = {
     "ee552": { name: "", row: 12, column: 309 , shelf: 4 },
 
     "ee555": { name: "", row: 12, column: 309 , shelf: 4 },
+
+    //column 310
+
+    "ce574": { name: "", row: 12, column: 310 , shelf: 1 },
+
+    "ce575": { name: "", row: 12, column: 310 , shelf: 1 },
+
+    "ce576": { name: "", row: 12, column: 310 , shelf: 1 },
+
+    "ce578": { name: "", row: 12, column: 310 , shelf: 2 },
+
+    "ce579": { name: "", row: 12, column: 310 , shelf: 2 },
+
+    "ce671": { name: "", row: 12, column: 310 , shelf: 2 },
+
+    "ce582": { name: "", row: 12, column: 310 , shelf: 2 },
+
+    "ce618": { name: "", row: 12, column: 310 , shelf: 3 },
+
+    "ce645": { name: "", row: 12, column: 310 , shelf: 3 },
+
+    "ce651": { name: "", row: 12, column: 310 , shelf: 3 },
+
+    "ce652": { name: "", row: 12, column: 310 , shelf: 4 },
+
+    "ce675": { name: "", row: 12, column: 310 , shelf: 4 },
+
+    "ce671": { name: "", row: 12, column: 310 , shelf: 4 },
 };
 let books={
 
