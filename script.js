@@ -347,12 +347,229 @@ let courses = {
     "math473": { name: "", row: 2, column: 90 , shelf: "3"},
     "math460": { name: "", row: 2, column: 90 , shelf: "4"},
 
+    // column 91
+    "phys101": { name: "", row: 2, column: 91 , shelf: "1,2,3,4" },
+    "phys102": { name: "", row: 2, column: 91 , shelf: "1,2,3,4" },
 
+    // column 97
+    "phys133": { name: "", row: 2, column: 97 , shelf: "1,2" },
 
+    // column 98
+    "phys203": { name: "", row: 2, column: 98 , shelf: "1" },
+    "phys211": { name: "", row: 2, column: 98 , shelf: "2" },
+    "phys213": { name: "", row: 2, column: 98 , shelf: "3" },
+    "phys212": { name: "", row: 2, column: 98 , shelf: "3" },
+    // column 99
+    "phys215": { name: "", row: 2, column: 99 , shelf: "1" },
+    "phys215": { name: "", row: 2, column: 99 , shelf: "2" },
+    "phys300": { name: "", row: 2, column: 99 , shelf: "3" },
+    "phys301": { name: "", row: 2, column: 99 , shelf: "3" },
+    "phys309": { name: "", row: 2, column: 99 , shelf: "4" },
+    "phys304": { name: "", row: 2, column: 99 , shelf: "4" },
+    "phys300": { name: "", row: 2, column: 99 , shelf: "4" },
 
+    // column 100
+    "phys305": { name: "", row: 2, column: 100 , shelf: "1" },
+    "phys306": { name: "", row: 2, column: 100 , shelf: "1" },
+    "phys310": { name: "", row: 2, column: 100 , shelf: "2" },
+    "phys401": { name: "", row: 2, column: 100 , shelf: "2" },
+    "phys403": { name: "", row: 2, column: 100 , shelf: "3" },
+    "phys422": { name: "", row: 2, column: 100 , shelf: "4" },
+    "phys402": { name: "", row: 2, column: 100 , shelf: "2" },
+    "phys416": { name: "", row: 2, column: 100 , shelf: "3" },
 
+    // column 101
+    "phys423": { name: "", row: 2, column: 101 , shelf: "1" },
+    "phys430": { name: "", row: 2, column: 101 , shelf: "2" },
+    "phys430": { name: "", row: 2, column: 101 , shelf: "2" },
+    "phys432": { name: "", row: 2, column: 101 , shelf: "3" },
+    "phys441": { name: "", row: 2, column: 101 , shelf: "4" },
 
+    // column 102
+    "stat211": { name: "", row: 2, column: 102 , shelf: "1,2,3,4" },
+    "stat212": { name: "", row: 2, column: 102 , shelf: "1,2,3,4" },
+    "stat213": { name: "", row: 2, column: 102 , shelf: "1,2,3,4" },
 
+    // column 103
+    "stat201": { name: "", row: 2, column: 103 , shelf: "1" },
+    "stat301": { name: "", row: 2, column: 103 , shelf: "1" },
+    "stat302": { name: "", row: 2, column: 103 , shelf: "2" },
+    "stat361": { name: "", row: 2, column: 103 , shelf: "3" },
+    "stat310": { name: "", row: 2, column: 103 , shelf: "3" },
+    "stat416": { name: "", row: 2, column: 103 , shelf: "4" },
+
+    // column 104
+    "stat319": { name: "", row: 2, column: 104 , shelf: "1,2,3,4" },
+
+    // column 105
+    "stat460": { name: "", row: 2, column: 105 , shelf: "4" },
+    "stat416": { name: "", row: 2, column: 105 , shelf: "4" },
+
+    // column 106
+    "gs332": { name: "", row: 3, column: 106, shelf: "1,2,3,4" },
+
+    // column 107
+    "gs342": { name: "", row: 3, column: 107, shelf: "1,2" },
+    "gs355": { name: "", row: 3, column: 107, shelf: "3,4" },
+
+    // column 108
+    "gs420": { name: "", row: 3, column: 108, shelf: "1,2" },
+    "gs434": { name: "", row: 3, column: 108, shelf: "4" },
+
+    // column 109
+    "gs426": { name: "", row: 3, column: 109, shelf: "1,2,3" }, 
+    "gs457": { name: "", row: 3, column: 109, shelf: "4" },
+
+    // column 113
+    "Ias121": { name: "", row: 3, column: 113, shelf: "1,2,3" },
+
+    // column 115
+    "Ias111": { name: "", row: 3, column: 115, shelf: "1,2,3,4" },
+
+    // column 118
+    "Ias201": { name: "", row: 3, column: 118, shelf: "1,2,3,4" },
+
+    // column 120
+    "Ias212": { name: "", row: 3, column: 120, shelf: "1,2,3,4" },
+
+    // column 121
+    "ias321": { name: "", row: 3, column: 121 , shelf: "1,2,3" },
+
+    // column 124
+    "ias322": { name: "", row: 3, column: 124 , shelf: "1,2,3" },
+
+    // column 126
+    "ias131": { name: "", row: 3, column: 126 , shelf: "1" },
+    "ias231": { name: "", row: 3, column: 126 , shelf: "2" },
+    "ias331": { name: "", row: 3, column: 126 , shelf: "3,4" },
+
+    // column 127
+    "ias416": { name: "", row: 3, column: 127 , shelf: "1,2,3,4" },
+
+    // column 128
+    "ias416": { name: "", row: 3, column: 128 , shelf: "1,2,3" },
+    "ias419": { name: "", row: 3, column: 128 , shelf: "4" },
+
+    // column 129
+    "ias419": { name: "", row: 3, column: 129 , shelf: "1,2,3" },
+
+    // column 131
+    "ias418": { name: "", row: 3, column: 131 , shelf: "1,2,3" },
+
+    // column 132
+    "gs220": { name: "", row: 3, column: 132 , shelf: "1,2,3" },
+
+    // column 133
+    "gs133": { name: "", row: 3, column: 133 , shelf: "1,2,3" },
+
+    // column 134
+    "gs321": { name: "", row: 3, column: 134 , shelf: "1,2,3,4" },
+    
+    // column 135
+    "gs336": { name: "", row: 3, column: 135 , shelf: "1,2,3" },
+
+    // column 136
+    "che200": { name: "", row: 4, column: 136 , shelf: "1,2,3,4" },
+
+    // column 138
+    "che204": { name: "", row: 4, column: 138 , shelf: "1,2,3,4"},
+
+    // column 139
+    "che300": { name: "", row: 4, column: 139 , shelf: "1,2,3,4" },
+
+    // column 140
+    "che303": { name: "", row: 4, column: 140 , shelf: "1,2,3,4"},
+
+    // column 141
+    "che304": { name: "", row: 4, column: 141 , shelf: "1,2,3,4" },
+
+    // column 142
+    "che306": { name: "", row: 4, column: 142 , shelf: "1,2"},
+    "che401": { name: "", row: 4, column: 142 , shelf: "3,4" },
+
+    // column 143
+    "che360": { name: "", row: 4, column: 143 , shelf: "1,2"},
+    "che402": { name: "", row: 4, column: 143 , shelf: "3,4" },
+
+    // column 144
+    "che425": { name: "", row: 4, column: 144 , shelf: "1,2,3"},
+    "che495": { name: "", row: 4, column: 144 , shelf: "1,2,3" },
+    "che424": { name: "", row: 4, column: 144 , shelf: "4"},
+
+    // column 145
+    "che430": { name: "", row: 4, column: 145 , shelf: "2,3" },
+
+    // column 147
+    "che431": { name: "", row: 4, column: 147 , shelf: "1"},
+    "che432": { name: "", row: 4, column: 147 , shelf: "2" },
+    "che440": { name: "", row: 4, column: 147 , shelf: "2"},
+    "che444": { name: "", row: 4, column: 147 , shelf: "3" },
+    "che449": { name: "", row: 4, column: 147 , shelf:"4" },
+
+    // column 148
+    "che463": { name: "", row: 4, column: 148 , shelf: "1" },
+    "che458": { name: "", row: 4, column: 148 , shelf:"2" },
+    "che461": { name: "", row: 4, column: 148 , shelf: "3" },
+    "che462": { name: "", row: 4, column: 148 , shelf: "4"},
+
+    // column 149
+    "che453": { name: "", row: 4, column: 149 , shelf: "1" },
+    "che465": { name: "", row: 4, column: 149 , shelf: "2"},
+    "che470": { name: "", row: 4, column: 149 , shelf: "3" },
+    "che471": { name: "", row: 4, column: 149 , shelf: "4"},
+
+    // column 150
+    "che472": { name: "", row: 4, column: 150 , shelf: "1" },
+    "che473": { name: "", row: 4, column: 150 , shelf: "2"},
+    "che480": { name: "", row: 4, column: 150 , shelf: "3" },
+
+    // column 151
+    "ce201": { name: "", row: 4, column: 151 , shelf: "1,2,3,4" },
+
+    // column 154
+    "ce202": { name: "", row: 4, column: 154 , shelf: "1,2,3,4" },
+
+    // column 158
+    "ce230": { name: "", row: 4, column: 158 , shelf: "1,2" },
+    "ce261": { name: "", row: 4, column: 158 , shelf: "3,4" },
+    "ce262": { name: "", row: 4, column: 158 , shelf: "3,4" },
+
+    // column 159
+    "ce305": { name: "", row: 4, column: 159 , shelf: "1" },
+    "ce312": { name: "", row: 4, column: 159 , shelf: "2" },
+    "ce315": { name: "", row: 4, column: 159 , shelf: "3,4" },
+
+    // column 160
+    "ce318": { name: "", row: 4, column: 160 , shelf: "1,2,3,4" },
+
+    // column 161
+    "ce341": { name: "", row: 4, column: 161 , shelf: "1,2" },
+    "ce353": { name: "", row: 4, column: 161 , shelf: "3,4" },
+    "ce354": { name: "", row: 4, column: 161 , shelf: "3,4" },
+
+    // column 162
+    "ce401": { name: "", row: 4, column: 162 , shelf: "1" },
+    "ce406": { name: "", row: 4, column: 162 , shelf: "2" },
+    "ce408": { name: "", row: 4, column: 162 , shelf: "3,4" },
+
+    // column 163
+    "ce415": { name: "", row: 4, column: 163 , shelf: "1" },
+    "ce422": { name: "", row: 4, column: 163 , shelf: "3" },
+    "ce421": { name: "", row: 4, column: 163 , shelf: "3" },
+
+    // column 164
+    "ce437": { name: "", row: 4, column: 164 , shelf: "2" },
+    "ce335": { name: "", row: 4, column: 164 , shelf: "2" },
+    "ce438": { name: "", row: 4, column: 164 , shelf: "2" },
+    "ce441": { name: "", row: 4, column: 164 , shelf: "3" },
+    "ce444": { name: "", row: 4, column: 164 , shelf: "4" },
+
+    // column 165
+    "ce455": { name: "", row: 4, column: 165 , shelf: "1" },
+    "ce473": { name: "", row: 4, column: 165 , shelf: "2" },
+    "ce476": { name: "", row: 4, column: 165 , shelf: "3" },
+
+    
     // MASTERS
     // column 301
     "ls511": { name: "", row: 12, column: 301 , shelf: 1 },
