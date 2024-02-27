@@ -27,7 +27,16 @@ footer {
 
 h1 {
     font-size: 80px;
+    /* font-weight: 700px; */
+    color:rgb(9, 130, 118);
+    transition: 1s;
 }
+h1:hover{
+    -webkit-text-stroke: 2px rgb(4, 190, 223);
+    color: transparent;
+    /* color:rgb(9, 130, 118) */
+}
+
 
 /* .btn-container {
     display: flex;
@@ -35,12 +44,7 @@ h1 {
     justify-content: center;
 } */
 
-@media screen and (max-width: 600px) {
-    .btn-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
 
 #COURSESEARCH, #BOOKSEARCH {
     display: none;
@@ -152,6 +156,12 @@ h1 {
 margin: auto;
 } */
 
+@media screen and (max-width: 600px) {
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 /* On devices with a width of 768px or more, the image will be displayed at a maximum width of 600px */
 @media (min-width: 768px) {
     #columnImage, rowImage {
@@ -164,7 +174,7 @@ margin: auto;
 
 @media (max-width: 768px) { /* Adjust this value as needed */
     h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
     #result {
         flex-direction: column;
