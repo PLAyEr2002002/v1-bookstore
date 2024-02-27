@@ -1,4 +1,37 @@
 {
-    "heading_title":"مكتبة KFUPM",
-    "heading_title_2": "   تحقق من الدورات التي تتوفر بها كتب <a href='courses.html'>هنا</a>"
+    "DEV_MESSAGE": "رسالة المطور: الموقع تحت الإنشاء",
+    "LOAD_WARNING_1": "يرجى العلم! قد يستغرق تحميل الصور بعض الوقت",
+    "LOAD_WARNING_2": "قد تتغير أرقام الأرفف من وقت لآخر",
+    "LOAD_WARNING_3": "هذه الرسالة ستختفي تلقائياً بعد 15 ثانية",
+
+    "NAVBAR_TITLE": "مكتبة KFUPM",
+    "NAVBAR_ALL_COURSES": "جميع الدورات",
+    "NAVBAR_LANGUAGE_SELECT": "اللغة",
+
+    "heading_title": "مكتبة KFUPM",
+    "heading_title_2": "تحقق من الدورات التي تتوفر بها كتب <a href='courses.html'>هنا</a>",
+
+    "NOTE_BUTTON": "ملاحظة! (اضغط هنا)",
+
+    "COURSE_SEARCH_BUTTON": "بحث عن دورة",
+    "BOOK_SEARCH_BUTTON": "بحث عن كتاب",
+
+    "COURSE_SEARCH_SEARCHBAR": "ابحث عن <strong>موقع</strong> <em><strong>دورة</strong></em> برقم <em>الدورة</em>",
+    "COURSE_SEARCH_SEARCHBAR_SUGGESTION_TEXT": "مثال: Ics 108",
+
+    "COURSE_SEARCH_SEARCHBAR_BUTTON": "بحث",
+
+    "COURSE_SEARCH_NAME_OF_BOOK": "اسم الكتاب",
+    "COURSE_SEARCH_ROW_BOOK": "صف",
+    "COURSE_SEARCH_COLUMN_BOOK": "عمود",
+    "COURSE_SEARCH_SHELF_BOOK": "رقم الرف",
+
+    "BOOK_SEARCH_TITLE": "ابحث عن <em>كتاب</em> واحصل على رقم الدورة ورقم المخزون",
+
+    "BOOK_SEARCH_SEARCHBAR_BUTTON": "بحث",
+
+    "BOOK_SEARCH_NAME_OF_BOOK": "اسم الكتاب",
+    "BOOK_SEARCH_COURSE_NUMBER": "رقم الدورة",
+    "BOOK_SEARCH_ISBN": "رقم الـ ISBN",
+    "BOOK_SEARCH_STOCK_NUMBER": "رقم المخزون"
 }
