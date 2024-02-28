@@ -280,8 +280,8 @@ let courses = {
     "as288": { name: "SOA exam FM/2 / Gail Hall, Richard London.    " , row: 9, column: 44 , shelf: 2},
     "as201": { name: "Mathematics of investment and credit / Samuel A. Broverman.    " , row: 9, column: 44 , shelf: 1},
 
-
-
+    //column 55
+    "chem101": { name: "" , row: 9, column: 55 , shelf: "1,2"},
 
 
     // column 61
