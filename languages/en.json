@@ -16,7 +16,7 @@
     "COURSE_SEARCH_BUTTON": "Course Search",
     "BOOK_SEARCH_BUTTON": "Book Search",
 
-    "COURSE_SEARCH_SEARCHBAR": " Search for a <strong>COURSE</strong><em><strong>location</strong></em> by <em>course number</em>",
+    "COURSE_SEARCH_SEARCHBAR": " Search for a <strong>COURSE</strong> <em><strong>location</strong></em> by <em>course number</em>",
     "COURSE_SEARCH_SEARCHBAR_SUGGESTION_TEXT": "Example : Ics 108",
 
     "COURSE_SEARCH_SEARCHBAR_BUTTON":"Search",
