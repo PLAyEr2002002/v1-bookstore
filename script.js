@@ -1554,6 +1554,7 @@ window.onload = function() {
     }, 10000);
 }
 
+
 function imagenote() {
     var popupp = document.getElementById('imageloadwarning');
     popupp.style.display = 'block'; // Show the popup
