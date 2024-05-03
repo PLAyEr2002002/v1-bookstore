@@ -569,6 +569,359 @@ let courses = {
     "ce473": { name: "", row: 4, column: 165 , shelf: "2" },
     "ce476": { name: "", row: 4, column: 165 , shelf: "3" },
 
+    // column 166
+    "ee200": { name: "", row: 5, column: 166, shelf: "1,2,3,4" },
+
+    // column 168
+    "ee203": { name: "", row: 5, column: 168, shelf: "1,2,3,4" },
+    
+    "ee303": { name: "", row: 5, column: 168, shelf: "1,2,3,4" },
+    
+
+    // column 170
+    "ee204": { name: "", row: 5, column: 170, shelf: "1,2,3,4" },
+    
+    "ee207": { name: "", row: 5, column: 173, shelf: "1,2,3,4" },
+    
+    "ee202": { name: "", row: 5, column: 174, shelf: "1,2,3,4" },
+    
+    "ee213": { name: "", row: 5, column: 174, shelf: "1,2,3,4" },
+    
+    "ee201": { name: "", row: 5, column: 175, shelf: "1,2,3,4" },
+    
+    "ee306": { name: "", row: 5, column: 178, shelf: "1,2,3,4" },
+    
+    "ee360": { name: "", row: 5, column: 178, shelf: "1,2,3,4" },
+    
+    "ee308": { name: "", row: 5, column: 180, shelf: "1" },
+    
+    "ee315": { name: "", row: 5, column: 180, shelf: "2,3" },
+    
+    "ee340": { name: "", row: 5, column: 181, shelf: "1,2,3,4" },
+    
+    "ee370": { name: "", row: 5, column: 182, shelf: "1,2,3,4" },
+    
+    "ee380": { name: "", row: 5, column: 184, shelf: "1,2,3,4" },
+    
+    "ee390": { name: "", row: 5, column: 186, shelf: "1,2,3,4" },
+    
+    "ee420": { name: "", row: 5, column: 188, shelf: "1" },
+    
+    "ee407": { name: "", row: 5, column: 188, shelf: "2" },
+    
+    "ee405": { name: "", row: 5, column: 188, shelf: "2" },
+    
+    "ee410": { name: "", row: 5, column: 188, shelf: "3,4" },
+    
+    "ee406": { name: "", row: 5, column: 189, shelf: "1" },
+    
+    "ee417": { name: "", row: 5, column: 189, shelf: "2" },
+    
+    "ee418": { name: "", row: 5, column: 189, shelf: "3" },
+    
+    "ee419": { name: "", row: 5, column: 189, shelf: "4" },
+    
+    "ee400": { name: "", row: 5, column: 190, shelf: "1" },
+    
+    "ee422": { name: "", row: 5, column: 190, shelf: "2" },
+    
+    "ee425": { name: "", row: 5, column: 190, shelf: "3" },
+    
+    "ee426": { name: "", row: 5, column: 190, shelf: "4" },
+    
+    "ee430": { name: "", row: 5, column: 190, shelf: "2" },
+    
+    "ee432": { name: "", row: 5, column: 191, shelf: "1" },
+    
+    "ee402": { name: "", row: 5, column: 191, shelf: "1" },
+    
+    "ee434": { name: "", row: 5, column: 191, shelf: "2" },
+    
+    "ee433": { name: "", row: 5, column: 191, shelf: "3,4" },
+    
+    "ee434": { name: "", row: 5, column: 192, shelf: "1" },
+    
+    "ee446": { name: "", row: 5, column: 192, shelf: "2" },
+    
+    "ee460": { name: "", row: 5, column: 192, shelf: "3" },
+    
+    "ee462": { name: "", row: 5, column: 192, shelf: "4" },
+    
+    "ee463": { name: "", row: 5, column: 193, shelf: "1,2" },
+    
+    "ee464": { name: "", row: 5, column: 194, shelf: "1" },
+    
+    "ee465": { name: "", row: 5, column: 194, shelf: "2" },
+    
+    "ee466": { name: "", row: 5, column: 195, shelf: "1,2" },
+    
+    "ee468": { name: "", row: 5, column: 195, shelf: "3" },
+    
+    "ee499": { name: "", row: 5, column: 195, shelf: "4" },
+    
+    "me201": { name: "", row: 6, column: 196, shelf: "1,2,3,4" },
+    
+    "me203": { name: "", row: 6, column: 198, shelf: "1,2,3,4" },
+    
+    "me204": { name: "", row: 6, column: 198, shelf: "1,2,3,4" },
+    
+    "me205": { name: "", row: 6, column: 200, shelf: "1,2,3,4" },
+    
+    "me216": { name: "", row: 6, column: 200, shelf: "1,2,3,4" },
+    
+    "me210": { name: "", row: 6, column: 204, shelf: "1,2,3,4" },
+    
+    "me307": { name: "", row: 6, column: 208, shelf: "1,2,3,4" },
+    
+    "me308": { name: "", row: 6, column: 208, shelf: "1,2,3,4" },
+    
+    "me209": { name: "", row: 6, column: 211, shelf: "1,2,3,4" },
+    
+    "me311": { name: "", row: 6, column: 214, shelf: "1,2,3,4" },
+    
+    "me315": { name: "", row: 6, column: 216, shelf: "1,2,3,4" },
+    
+    "me440": { name: "", row: 6, column: 217, shelf: "1,2,3,4" },
+    
+    "me322": { name: "", row: 6, column: 218, shelf: "1,2,3,4" },
+    
+    "me406": { name: "", row: 6, column: 218, shelf: "1,2 3,4" },
+    
+    "me409": { name: "", row: 6, column: 219, shelf: "1,2,3,4" },
+    
+    "me413": { name: "", row: 6, column: 220, shelf: "1,2" },
+    
+    "me420": { name: "", row: 6, column: 220, shelf: "3" },
+    
+    "me414": { name: "", row: 6, column: 221, shelf: "1" },
+    
+    "me411": { name: "", row: 6, column: 221, shelf: "1" },
+    
+    "me425": { name: "", row: 6, column: 221, shelf: "2" },
+    
+    "me427": { name: "", row: 6, column: 221, shelf: "3" },
+    
+    "me429": { name: "", row: 6, column: 221, shelf: "4" },
+    
+    "me430": { name: "", row: 6, column: 222, shelf: "1" },
+    
+    "me437": { name: "", row: 6, column: 222, shelf: "3" },
+    
+    "me439": { name: "", row: 6, column: 222, shelf: "4" },
+    
+    "me432": { name: "", row: 6, column: 223, shelf: "1" },
+    
+    "me446": { name: "", row: 6, column: 223, shelf: "1" },
+    
+    "me449": { name: "", row: 6, column: 223, shelf: "2" },
+    
+    "me438": { name: "", row: 6, column: 223, shelf: "3" },
+    
+    "me451": { name: "", row: 6, column: 223, shelf: "3" },
+    
+    "me457": { name: "", row: 6, column: 223, shelf: "4" },
+    
+    "me458": { name: "", row: 6, column: 224, shelf: "1" },
+    
+    "me462": { name: "", row: 6, column: 224, shelf: "2" },
+    
+    "me472": { name: "", row: 6, column: 224, shelf: "3" },
+    
+    "me476": { name: "", row: 6, column: 225, shelf: "4" },
+    
+    "me205": { name: "", row: 6, column: 225, shelf: "1" },
+    
+    "me480": { name: "", row: 6, column: 225, shelf: "1" },
+    
+    "me482": { name: "", row: 6, column: 225, shelf: "2" },
+    
+    "me489": { name: "", row: 6, column: 225, shelf: "3" },
+    
+    "me482": { name: "", row: 7, column: 226, shelf: "2" },
+    
+    "me489": { name: "", row: 7, column: 226, shelf: "3" },
+    
+    "me493": { name: "", row: 7, column: 226, shelf: "2" },
+    
+    "Pete203": { name: "", row: 7, column: 226, shelf: "4" },
+    
+    "Pete304": { name: "", row: 7, column: 226, shelf: "2" },
+    
+    "Mse201": { name: "", row: 7, column: 227, shelf: "2" },
+    
+    "Me216": { name: "", row: 7, column: 227, shelf: "2" },
+    
+    "Mse203": { name: "", row: 7, column: 227, shelf: "2" },
+    
+    "me502": { name: "", row: 7, column: 227, shelf: "2" },
+    
+    "Mse204": { name: "", row: 7, column: 227, shelf: "2" },
+    
+    "Mse302": { name: "", row: 7, column: 228, shelf: "2" },
+    
+    "Mse303": { name: "", row: 7, column: 228, shelf: "2" },
+    
+    "Mse304": { name: "", row: 7, column: 229, shelf: "2" },
+    
+    "Mse306": { name: "", row: 7, column: 229, shelf: "2" },
+    
+    "Mse307": { name: "", row: 7, column: 229, shelf: "2" },
+    
+    "Pete202": { name: "", row: 7, column: 230, shelf: "2" },
+    
+    "Pete203": { name: "", row: 7, column: 230, shelf: "2" },
+    
+    "Pete206": { name: "", row: 7, column: 231, shelf: "2" },
+    
+    "Pete301": { name: "", row: 7, column: 232, shelf: "2" },
+    
+    "Pete302": { name: "", row: 7, column: 233, shelf: "2" },
+    
+    "Pete303": { name: "", row: 7, column: 234, shelf: "2" },
+    
+    "Pete313": { name: "", row: 7, column: 234, shelf: "2" },
+    
+    "Pete305": { name: "", row: 7, column: 234, shelf: "2" },
+    
+    "Pete315": { name: "", row: 7, column: 234, shelf: "2" },
+    
+    "Pete311": { name: "", row: 7, column: 235, shelf: "2" },
+    
+    "Pete304": { name: "", row: 7, column: 235, shelf: "2" },
+    
+    "Pete306": { name: "", row: 7, column: 236, shelf: "2" },
+    
+    "Pete400": { name: "", row: 7, column: 236, shelf: "2" },
+    
+    "Pete424": { name: "", row: 7, column: 236, shelf: "2" },
+    
+    "Pete402": { name: "", row: 7, column: 237, shelf: "2" },
+    
+    "Pete403": { name: "", row: 7, column: 237, shelf: "2" },
+    
+    "Pete404": { name: "", row: 7, column: 238, shelf: "2" },
+    
+    "Pete417": { name: "", row: 7, column: 238, shelf: "2" },
+    
+    "Pete432": { name: "", row: 7, column: 238, shelf: "2" },
+    
+    "Pete405": { name: "", row: 7, column: 238, shelf: "2" },
+    
+    "Pete406": { name: "", row: 7, column: 238, shelf: "2" },
+    
+    "Pete406": { name: "", row: 7, column: 239, shelf: "2" },
+    
+    "Pete407": { name: "", row: 7, column: 239, shelf: "2" },
+    
+    "Pete410": { name: "", row: 7, column: 239, shelf: "2" },
+    
+    "hrm301": { "name": "", "row": 7, "column": "241", "shelf": "1" },
+    "hrm390": { "name": "", "row": 7, "column": "402", "shelf": "2" },
+    "hrm301": { "name": "", "row": 7, "column": "241", "shelf": "3" },
+    "hrm415": { "name": "", "row": 7, "column": "241", "shelf": "4" },
+    "hrm403": { "name": "", "row": 7, "column": "241", "shelf": "3" },
+    "mgt405": { "name": "", "row": 7, "column": "241", "shelf": "4" },
+    "mgt210": { "name": "", "row": 7, "column": "242", "shelf": "1" },
+    "hrm401": { "name": "", "row": 7, "column": "242", "shelf": "2" },
+    "mgt210": { "name": "", "row": 7, "column": "242", "shelf": "1,2,3" },
+    "mgt301": { "name": "", "row": 7, "column": "244", "shelf": "1,2,3,4" },
+    "mgt310": { "name": "", "row": 7, "column": "245", "shelf": "1,2,4" },
+    "mgt410": { "name": "", "row": 7, "column": "245", "shelf": "1,2,4" },
+    "mgt311": { "name": "", "row": 7, "column": "245", "shelf": "3" },
+    "mgt311": { "name": "", "row": 7, "column": "246", "shelf": "1,2,3" },
+    "hrm301": { "name": "", "row": 7, "column": "241", "shelf": "1" },
+    "hrm390": { "name": "", "row": 7, "column": "402", "shelf": "2" },
+    "hrm301": { "name": "", "row": 7, "column": "241", "shelf": "3" },
+    "hrm415": { "name": "", "row": 7, "column": "241", "shelf": "4" },
+    "hrm403": { "name": "", "row": 7, "column": "241", "shelf": "3" },
+    "mgt405": { "name": "", "row": 7, "column": "241", "shelf": "4" },
+    "mgt210": { "name": "", "row": 7, "column": "242", "shelf": "1" },
+    "hrm401": { "name": "", "row": 7, "column": "242", "shelf": "2" },
+    "mgt210": { "name": "", "row": 7, "column": "242", "shelf": "1,2,3" },
+    "mgt301": { "name": "", "row": 7, "column": "244", "shelf": "1,2,3,4" },
+    "mgt310": { "name": "", "row": 7, "column": "245", "shelf": "1,2,4" },
+    "mgt410": { "name": "", "row": 7, "column": "245", "shelf": "1,2,4" },
+    "mgt311": { "name": "", "row": 7, "column": "245", "shelf": "3" },
+    "mgt312": { "name": "", "row": 7, "column": "247", "shelf": "1" },
+    "mgt355": { "name": "", "row": 7, "column": "247", "shelf": "2,3,4" },
+    "mgt405": { "name": "", "row": 7, "column": "248", "shelf": "1,2" },
+    "mgt403": { "name": "", "row": 7, "column": "248", "shelf": "1,2" },
+    "mgt412": { "name": "", "row": 7, "column": "248", "shelf": "3" },
+    "entr416": { "name": "", "row": 7, "column": "249", "shelf": "1" },
+    "mgt412": { "name": "", "row": 7, "column": "248", "shelf": "1" },
+    "mgt430": { "name": "", "row": 7, "column": "250", "shelf": "1,2" },
+    "mgt440": { "name": "", "row": 7, "column": "253", "shelf": "1,2" },
+    "mgt449": { "name": "", "row": 7, "column": "254", "shelf": "1,2,3" },
+    "mgt450": { "name": "", "row": 7, "column": "255", "shelf": "1,2" },
+    "mgt495": { "name": "", "row": 7, "column": "255", "shelf": "3" },
+
+    "mkt250": { name: "", row: 8, column: 256 , shelf: "1,2,3" },
+    "mkt301": { name: "", row: 8, column: 256 , shelf:"1,2,3"},
+    "mkt470": { name: "", row: 8, column: 259 , shelf: "1,2,3" },
+    "mkt320": { name: "", row: 8, column: 259 , shelf:"1,2,3"},
+    "mkt345": { name: "", row: 8, column: 260 , shelf: "1,2" },
+    "mkt360": { name: "", row: 8, column: 261 , shelf:"1,2"},
+    "mkt370": { name: "", row: 8, column: 261 , shelf: "3,4" },
+    "mkt430": { name: "", row: 8, column: 262 , shelf:"1"},
+    "mkt375": { name: "", row: 8, column: 262 , shelf: "1" },
+    "mkt380": { name: "", row: 8, column: 262 , shelf:"2"},
+    "mkt410": { name: "", row: 8, column: 262 , shelf: "4" },
+    "mkt420": { name: "", row: 8, column: 263 , shelf:"1"},
+    "mkt430": { name: "", row: 8, column: 263 , shelf: "2" },
+    "mkt375": { name: "", row: 8, column: 263 , shelf:"2"},
+    "mkt450": { name: "", row: 8, column: 263 , shelf: "3" },
+    "mkt440": { name: "", row: 8, column: 263 , shelf:"3"},
+    "mkt340": { name: "", row: 8, column: 263 , shelf: "3" },
+    "mkt485": { name: "", row: 8, column: 264 , shelf:"1"},
+    "mkt490": { name: "", row: 8, column: 264 , shelf: "2" },
+    "bus200": { name: "", row: 8, column: 266 , shelf:"1,2,3,4"},
+    "fin250": { name: "", row: 8, column: 268 , shelf: "1,2,3,4" },
+    "fin310": { name: "", row: 8, column: 269 , shelf:"1,2,3,4"},
+    "fin315": { name: "", row: 8, column: 269 , shelf: "1,2,3,4" },
+
+    // 269 to 290???????? 
+
+    "om210": { name: "", row: 9, column: 290, shelf: "1,2" },
+
+    "om211": { name: "", row: 9, column: 292, shelf: "1,2" },
+
+    "om310": { name: "", row: 9, column: 292, shelf: "3" },
+
+    "om311": { name: "", row: 9, column: 293, shelf: "1,2" },
+
+    "om320": { name: "", row: 9, column: 294, shelf: 4 },
+
+    "om430": { name: "", row: 9, column: 294, shelf: 4},
+
+    "om421": { name: "", row: 9, column: 295, shelf: "1" },
+
+    "om423": { name: "", row: 9, column: 295, shelf: "2" },
+
+    "mis301": { name: "", row: 9, column: 295, shelf: "4" },
+
+    "mis215": { name: "", row: 9, column: 296, shelf: "1,2" },
+
+    "mis300": { name: "", row: 9, column: 296, shelf: "3" },
+
+    "mis302": { name: "", row: 9, column: 297, shelf: "3,4" },
+
+    "mis311": { name: "", row: 9, column: 298, shelf: "1" },
+
+    "mis325": { name: "", row: 9, column: 298, shelf: "2" },
+
+    "mis341": { name: "", row: 9, column: 299, shelf: "1" },
+
+    "mis355": { name: "", row: 9, column: 299, shelf: "3" },
+
+    "mis365": { name: "", row: 9, column: 299, shelf: "3" },
+
+    "mis380": { name: "", row: 9, column: 299, shelf: "4" },
+
+    "mis405": { name: "", row: 9, column: 300, shelf: "1" },
+
+    "mis410": { name: "", row: 9, column: 300, shelf: "2" },
+
+    "mis490": { name: "", row: 9, column: 300, shelf: "3" },
 
     // MASTERS
     // column 301
